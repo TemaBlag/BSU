@@ -13,3 +13,7 @@
 - [lab6](https://github.com/TemaBlag/BSU/tree/main/bioinformatics/lab6) - [BIOPYTHON.4](https://github.com/TemaBlag/BSU/blob/main/bioinformatics/lab6/lab6.ipynb)
 - [lab7](https://github.com/TemaBlag/BSU/tree/main/bioinformatics/lab7) - [BLAST](https://github.com/TemaBlag/BSU/blob/main/bioinformatics/lab7/lab7.ipynb)
 ---
+### Recommended literature
+
+* А.В. Финкельштейн, О.Б. Птицын: Физика белка - Курс лекций с цветными стереоскопическими иллюстрациями и задачами.
+* Павел Певзнер, Филлип Компо: Алгоритмы биоинформатики
