@@ -121,11 +121,7 @@ The **Castle-Pitway** algorithm is another incremental line-drawing approach, of
 ---
 ## Interface
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/3b65e414-ba12-42bc-9175-65dda89e3166"/>
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/3216c714-7984-407b-be3d-df8c513aa16c" />
-
-
-
+![](https://res.cloudinary.com/daaivmxff/image/upload/v1734862874/app_okixgl.png)
 
 ## Usage
 1. Launch the app to view the main canvas and menu button.
