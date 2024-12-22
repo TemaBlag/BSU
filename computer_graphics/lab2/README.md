@@ -94,19 +94,19 @@ Global thresholding is used for image segmentation, where pixels are transformed
 # Comparison: Simple Thresholding vs. Otsu's Method
 ## Simple Thresholding
 Simple Thresholding is the best for images with consistent backgrounds and clear object boundaries. So let's show it:
-![house](https://github.com/user-attachments/assets/3ccd7535-2fb1-4898-8a76-f88850247dfd)
+![house](https://res.cloudinary.com/daaivmxff/image/upload/v1734863979/house_sssfan.jpg)
 
 <div align="center">
   Picture 1: Original photo of the house
 </div>
 
-![simple](https://github.com/user-attachments/assets/91213ea2-0b27-4db4-af61-2062c972a10d)
+![simple](https://res.cloudinary.com/daaivmxff/image/upload/v1734863972/simple_threshold_ejk2e0.jpg)
 
 <div align="center">
   Picture 2: Photo after applying a Simple Threshold with a Threshold=70
 </div>
 
-![otsu](https://github.com/user-attachments/assets/7d5642c5-658c-4aed-9a4a-eeecd2e7fcb1)
+![otsu](https://res.cloudinary.com/daaivmxff/image/upload/v1734863984/otsu_thresholding_eggakq.jpg)
 
 <div align="center">
   Picture 3: Photo after applying Otsu's Thresholdig
@@ -119,19 +119,19 @@ Otsu's Thresholding is effective for images with varying illumination or multipl
 
 
 So let's show it:
-![fur](https://github.com/user-attachments/assets/7fe246c0-0010-42c8-ac29-c9a1e445811b)
+![fur](https://res.cloudinary.com/daaivmxff/image/upload/v1734864634/furniture_zudvzl.jpg)
 
 <div align="center">
   Picture 1: Original photo a room with varying illumination
 </div>
 
-![simple_room](https://github.com/user-attachments/assets/1914c7df-fe09-4a1a-a078-15899f69f67c)
+![simple_room](https://res.cloudinary.com/daaivmxff/image/upload/v1734864639/simple_tresh_fur_q6dtz0.jpg)
 
 <div align="center">
   Picture 2: Photo after applying a Simple Threshold with a Threshold=70
 </div>
 
-![2](https://github.com/user-attachments/assets/535306d2-f17e-40bf-bf3e-f0e9c17be67c)
+![2](https://res.cloudinary.com/daaivmxff/image/upload/v1734864644/otsu_fur_amtito.jpg)
 
 <div align="center">
   Picture 3: Photo after applying Otsu's Thresholdig
