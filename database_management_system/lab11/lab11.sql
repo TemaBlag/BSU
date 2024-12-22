@@ -1,0 +1,37 @@
+CREATE VIEW ExcellentStudents
+AS SELECT "UNUM", "OCENKA", "SNUM"
+FROM "USP"
+WHERE "OCENKA" IN (4, 5)
+WITH CHECK OPTION;
+
+
+DROP VIEW ExcellentStudents;
+
+
+CREATE MATERIALIZED VIEW ExcellentStudents
+AS SELECT "UNUM", "UDATE", "OCENKA", "SNUM"
+FROM "USP"
+WHERE "OCENKA" IN (4, 5);
+
+
+CREATE INDEX UNUM_UDATE_index ON ExcellentStudents ("UNUM", "UDATE");
+
+SELECT *
+FROM pg_indexes
+WHERE indexname = 'unum_udate_index';
+
+
+INSERT INTO "USP" VALUES (1006, 3, CURRENT_TIMESTAMP - INTERVAL '1 day', 3413, 2003);
+
+
+CREATE VIEW math
+AS SELECT "OCENKA", "UDATE"
+FROM "USP"
+INNER JOIN "PREDMET" USING("PNUM") 
+WHERE (CURRENT_TIMESTAMP - INTERVAL '1 day')::date = "UDATE"
+and "PNAME" = 'Математика';
+
+
+SELECT * FROM math;
+
+	
