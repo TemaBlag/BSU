@@ -14,3 +14,4 @@
 - [lab13](https://github.com/TemaBlag/BSU/tree/main/database_management_system/lab13) - [Database Security System](https://temablag.github.io/BSU/database_management_system/lab13/lab13.pdf)
 - [lab14](https://github.com/TemaBlag/BSU/tree/main/database_management_system/lab14) - [Creating Software Objects for a Given Subject Area Database](https://temablag.github.io/BSU/database_management_system/lab14/lab14.pdf)
 
+For `SQL` formatting: [sqlformat](https://sqlformat.org/)
