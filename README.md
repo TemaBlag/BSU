@@ -6,6 +6,6 @@ ___
 - [🎨 Компьютерная графика (Computer graphics)](https://github.com/TemaBlag/BSU/tree/main/computer_graphics) - `Python`, `HTML`
 - [🎯 Методы оптимизации (Optimization methods)](https://github.com/TemaBlag/BSU/tree/main/optimization_methods)
 - [📃 Научные работы (Sience works)](https://github.com/TemaBlag/BSU/tree/main/science_works)
-- [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`,  [`SQL`](https://github.com/search?q=repo%3ATemaBlag%2FBSU+language%3ASQL&type=code), 
+- [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`, `SQL`, 
  `UML`
 - [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1) - `Python`
