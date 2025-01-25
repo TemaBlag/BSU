@@ -10,7 +10,7 @@ ___
  `UML`
 - [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1) - `Python`
 - [💻 Технологии программирования (Programming Technologies)] - `Python`, `Django`, `SQL`
-- [🏛️ Архитектура компьютеров (Computer Architecture)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture) - `Python`, `C++`
+- [🏛️ Архитектура компьютеров (Computer Architecture)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture) - `Python`, `C++`, `MPI`
 - [📐 Модели и алгоритмы задач дискретной оптимизации (Models and Algorithms for Discrete Optimization Problems)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms) - `Python`, `C++`
 - [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`
 - [🖥️ Промышленное программирование (Industrial Programming)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming) - `Java`
