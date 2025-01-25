@@ -9,11 +9,11 @@ ___
 - [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`, `SQL`, 
  `UML`
 - [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1) - `Python`
-- 💻 Технологии программирования Programming Technologies - `Python`
-- 🏛️ Архитектура компьютеров Computer Architecture
-- 📐 Модели и алгоритмы задач дискретной оптимизации Models and Algorithms for Discrete Optimization Problems
-- 🧩 Алгоритмы и структуры данных Algorithms and Data Structures
-- 🖥️ Промышленное программирование Industrial Programming
-- ⚙️ Машинно-ориентированное программирование Machine-Oriented Programming
-- 🌐 Разработка кросс-платформенных приложений (Cross-Platform Application Development)
-- 📖 Основы и методологии программирования (Fundamentals and Methodologies of Programming)
+- [💻 Технологии программирования (Programming Technologies)] - `Python`, `Django`, `SQL`
+- [🏛️ Архитектура компьютеров (Computer Architecture)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture) - `Python`, `C++`
+- [📐 Модели и алгоритмы задач дискретной оптимизации (Models and Algorithms for Discrete Optimization Problems)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms) - `Python`, `C++`
+- [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`
+- [🖥️ Промышленное программирование (Industrial Programming)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming) - `Java`
+- [⚙️ Машинно-ориентированное программирование (Machine-Oriented Programming)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented) - `C++`, `Assembly`
+- [🌐 Разработка кросс-платформенных приложений (Cross-Platform Application Development)](https://github.com/TemaBlag/BSU/tree/main/cross_platform) - `QT`, `C++`
+- [📖 Основы и методологии программирования (Fundamentals and Methodologies of Programming)](https://github.com/TemaBlag/BSU/tree/main/fundamentals) - `C++`
