@@ -1,8 +1,8 @@
-# Models and algorithms of discrete optimization problems
+# 📐 Models and algorithms of discrete optimization problems
 Модели и алгоритмы задач дискретной оптимизации
 
-- Open-shop
-- N-queen problem
+- [Open-shop](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms/OpenShop)
+- [N-queen problem]()
 
 ---
 
