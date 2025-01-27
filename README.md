@@ -9,7 +9,7 @@ ___
 - [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`, `SQL`, 
  `UML`
 - [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1) - `Python`
-- [💻 Технологии программирования (Programming Technologies)](https://github.com/TemaBlag/TechKing) - `Python`, `Django`, `SQL`
+- [💻 Технологии программирования (Programming Technologies)](https://github.com/TemaBlag/TechKing) - `Python`, `Django`, `SQL`, `UML`
 - [🏛️ Архитектура компьютеров (Computer Architecture)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture) - `Python`, `C++`, `MPI`
 - [📐 Модели и алгоритмы задач дискретной оптимизации (Models and Algorithms for Discrete Optimization Problems)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms) - `Python`, `C++`
 - [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`
