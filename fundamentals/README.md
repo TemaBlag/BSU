@@ -1,8 +1,6 @@
 # 📖 Fundamentals and Methodologies of Programming
 Основы и методологии программирования
 
----
-
 - [lab1](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab1) - Целочисленная арифметика (_Integer arithmetic_)
 - [lab2](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab2) - Рекурсия (_Recursion_)
 - [lab3](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab3) - Оператор switch (_operator switch_)
