@@ -16,7 +16,7 @@
 
 Проект калькулятор на C++
 
--[calculator](https://github.com/TemaBlag/BSU/tree/main/fundamentals/Calculator) - Калькулятор (_calculator_)
+- [calculator](https://github.com/TemaBlag/BSU/tree/main/fundamentals/Calculator) - Калькулятор (_calculator_)
 
 ## Recommended literature
 
