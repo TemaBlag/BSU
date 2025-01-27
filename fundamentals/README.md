@@ -8,7 +8,7 @@
 - [lab4](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab4) - Циклы for and while (_Loop for and while_)
 - [lab5](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab5) - Массивы, указатели, функции (Arrays, pointers, functions)
 - [lab6](https://github.com/TemaBlag/BSU/tree/main/fundamentals/lab6) - Системы счисления (_Number systems_)
-- [test](https://github.com/TemaBlag/BSU/tree/main/fundamentals/cr) - Контрольная работа(_Test work_)
+- [test](https://github.com/TemaBlag/BSU/tree/main/fundamentals/test) - Контрольная работа(_Test work_)
 
 ---
 
