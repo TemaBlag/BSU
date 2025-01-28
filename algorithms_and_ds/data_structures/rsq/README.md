@@ -12,8 +12,8 @@ $𝐴=[𝑎_0,𝑎_1,𝑎_2,…,𝑎_(𝑛−1)]$
 $S = \sum_{k=l}^{r-1} a_k$
 
 C помощью специальных структур:
-- префиксная сумма;
-- дерево отрезков;
-- блоки;
+- [префиксная сумма](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/data_structures/rsq/PrefixSum);
+- [дерево отрезков](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/data_structures/rsq/SegmentTree);
+- [блоки](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/data_structures/rsq/BlocksSum);
 
 выполнить интервальный запрос можно быстрее.
