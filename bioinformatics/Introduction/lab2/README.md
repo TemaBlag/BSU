@@ -1,7 +1,7 @@
 Conditions:
 
 - [condition1](https://temablag.github.io/BSU/bioinformatics/Introduction/lab2/lab2_1.pdf)
-- [condition2](https://temablag.github.io/BSU/bioinformatics/Introduction/lab2/lab2_1.pdf)
+- [condition2](https://temablag.github.io/BSU/bioinformatics/Introduction/lab2/lab2_2.pdf)
 
 Notebooks:
 
