@@ -2,7 +2,7 @@
 Модели и алгоритмы задач дискретной оптимизации
 
 - [Open-shop](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms/OpenShop)
-- N-queen problem
+- [N-queen problem](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms/queensPlacement)
 
 ---
 
