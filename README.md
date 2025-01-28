@@ -24,7 +24,7 @@
 <details>
 <summary>1️⃣ semester 1</summary>
 
-- Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)
+- [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
 - [📖 Fundamentals and Methodologies of programming	(_Основы и методологии программирования_)](https://github.com/TemaBlag/BSU/tree/main/fundamentals)
 - Analytical geometry (_Аналитическая геометрия_)
 - English (_Английский язык_)
@@ -36,7 +36,7 @@
 <details>
 <summary>2️⃣ semester 2</summary>
 
-- Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)
+- [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
 - Linear algebra (_Линейная алгебра_)
 - English (_Английский язык_)
 - [⚙️ Machine-oriented programming	(_Машинно-ориентированное программирование_)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented)			 
