@@ -1,6 +1,13 @@
-# N-Queen problem
+# Задача категории Б
 
-The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
+"Задача категории Б"является идентичной задачей расстановки ферзей или, по-другому, "N-Queens problem".
+
+Цель проста: на шахматной доске NxN расположить ферзей так, чтобы ни один
+ферзь не мог атаковать другого. 
+
+Входные данные N ≤ 2000, выходные данные: расстановка ферзей(поле NxN, где на свободных позициях - 0, а
+на позициях ферзя - 1). Эта задача имеет много решений, в зависимости
+от разных N, но я рассмотрю мои попытки решения этой задачи и наиболее популярные из них.
 
 I created some solutions and described them in one paper.
 There are 3 types of solutions to the N-Queens problem: Backtraking, MinConflict and Expicit solution.
