@@ -12,7 +12,7 @@
 - [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`, `TeX`
 - [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`, `SQL`, 
  `UML`
-- [📐 Модели и алгоритмы задач дискретной оптимизации (Models and Algorithms for Discrete Optimization Problems)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms) - `Python`, `C++`
+- [📐 Модели и алгоритмы задач дискретной оптимизации (Models and Algorithms for Discrete Optimization Problems)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms) - `Python`, `C++`, `TeX`
 - [🏛️ Архитектура компьютеров (Computer Architecture)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture) - `Python`, `C++`, `MPI`
 - [🖥️ Промышленное программирование (Industrial Programming)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming) - `Java`
 - [⚙️ Машинно-ориентированное программирование (Machine-Oriented Programming)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented) - `C++`, `Assembly`
