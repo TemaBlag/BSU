@@ -1,5 +1,5 @@
-# 🌐 Cross-Platform Application Development
-Разработка кросс-платформенных приложений (Inline Assembly) 
+# ⚙️ Machine-Oriented Programming
+Машинно-ориентированное программирование (Inline Assembly) 
 
 - [lab1](https://github.com/TemaBlag/BSU/tree/main/machine_oriented/lab1) - Команды обработки целых чисел (_Integer instructions_)
 - [lab2](https://github.com/TemaBlag/BSU/tree/main/machine_oriented/lab2) - Функции (_Functions_)
