@@ -1,6 +1,6 @@
 # Lectures
 
-- [0. Введение (_Introduction_)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/lectures/0_Introduction.pdf)
+- [0. Введение (_Introduction_)](https://temablag.github.io/BSU/algorithms_and_ds/lectures/0_Introduction.pdf)
 - [01. Трудоёмкость алгоритмов (_Complexity of algorithms_)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/lectures/01_Complexity_of_algorithms.pdf)
 - [02-03. Рекуррентные соотношения (_Recurrent relations_)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/lectures/02-03_Recurrent_relations.pdf)
 - [04-05. ДП (_DP_)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds/lectures/04-05_DP.pdf)
