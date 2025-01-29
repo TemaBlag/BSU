@@ -52,11 +52,11 @@
 - [🖥️ Industrial programming	(_Промышленное программирование_)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming)	
 - [Differential equations (_Дифференциальные уравнения_)](https://github.com/TemaBlag/BSU/tree/main/differential_equations)
 - [Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)](https://github.com/TemaBlag/BSU/tree/main/computer_science)
-- Series and functions of a complex argument	 (_Ряды и функции комплексного аргумента_)	
+- [Series and functions of a complex argument	 (_Ряды и функции комплексного аргумента_)](https://github.com/TemaBlag/BSU/tree/main/series_and_functions)	
 - [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - Operating systems (_Операционные системы_)
 - Modern political economy	(_Современная политэкономия_)
-- Functional sequences and series, improper integral (_Функциональные последовательности и ряды, несобственный интеграл_)
+- [Functional sequences and series, improper integral (_Функциональные последовательности и ряды, несобственный интеграл_)](https://github.com/TemaBlag/BSU/tree/main/functional_sequences)
 
 </details>
 
