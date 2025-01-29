@@ -28,7 +28,7 @@
 - [📖 Fundamentals and Methodologies of programming	(_Основы и методологии программирования_)](https://github.com/TemaBlag/BSU/tree/main/fundamentals)
 - [Analytical geometry (_Аналитическая геометрия_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
 - English (_Английский язык_)
-- Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)	
+- [Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)](https://github.com/TemaBlag/BSU/tree/main/discrete_math_and_logic)
 - [Fundamentals of Higher Algebra (_Основы высшей алгебры_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
 
 </details>
@@ -40,7 +40,7 @@
 - Linear algebra (_Линейная алгебра_)
 - English (_Английский язык_)
 - [⚙️ Machine-oriented programming	(_Машинно-ориентированное программирование_)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented)			 
-- Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)	
+- [Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)](https://github.com/TemaBlag/BSU/tree/main/discrete_math_and_logic)	
 - [🌐 Cross-platform application development (_Разработка кросс-платформенных приложений_)](https://github.com/TemaBlag/BSU/tree/main/cross_platform)
 
 </details>
