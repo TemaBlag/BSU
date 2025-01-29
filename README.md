@@ -62,8 +62,7 @@
 
 <details>
 <summary>4️⃣ semester 4</summary>
-
- - Fundamentals of law (_Основы права_)			 
+ 
 - [🧩 Algorithms and data structures (_Алгоритмы и структуры данных_)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds)	
 - [💾 Data models and DMS (_Модели данных и СУБД_)](https://github.com/TemaBlag/BSU/tree/main/database_management_system)		 
 - [📐 Models and algorithms of discrete optimization problems (_Модели и алгоритмы задач дискретной оптимизации_)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms)		 
