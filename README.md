@@ -37,7 +37,7 @@
 <summary>2️⃣ semester 2</summary>
 
 - [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
-- Linear algebra (_Линейная алгебра_)
+- [Linear algebra (_Линейная алгебра_)](https://github.com/TemaBlag/BSU/blob/main/algebra_and_geometry/README.md)
 - [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - [⚙️ Machine-oriented programming	(_Машинно-ориентированное программирование_)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented)			 
 - [Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)](https://github.com/TemaBlag/BSU/tree/main/discrete_math_and_logic)	
