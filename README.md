@@ -48,7 +48,7 @@
 <details>
 <summary>3️⃣ semester 3</summary>
  
-- Educational practice (_Учебная практика_) 
+- [Educational practice (_Учебная практика_)](https://github.com/TemaBlag/BSU/tree/main/educational_practice) 
 - [🖥️ Industrial programming	(_Промышленное программирование_)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming)	
 - [Differential equations (_Дифференциальные уравнения_)](https://github.com/TemaBlag/BSU/tree/main/differential_equations)
 - Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)
