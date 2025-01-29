@@ -51,7 +51,7 @@
 - [Educational practice (_Учебная практика_)](https://github.com/TemaBlag/BSU/tree/main/educational_practice) 
 - [🖥️ Industrial programming	(_Промышленное программирование_)](https://github.com/TemaBlag/BSU/tree/main/industrial_programming)	
 - [Differential equations (_Дифференциальные уравнения_)](https://github.com/TemaBlag/BSU/tree/main/differential_equations)
-- Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)
+- [Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)](https://github.com/TemaBlag/BSU/tree/main/computer_science)
 - Series and functions of a complex argument	 (_Ряды и функции комплексного аргумента_)	
 - [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - Operating systems (_Операционные системы_)
