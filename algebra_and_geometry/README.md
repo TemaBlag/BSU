@@ -1,5 +1,5 @@
-# Fundamentals of Higher Algebra and analytical geometry 
-Основы высшей алгебры и аналитическая геометрия (ОВАиАГ)
+# Fundamentals of Higher Algebra, linear algebra and analytical geometry 
+Основы высшей алгебры и аналитическая геометрия (ОВАиАГ) + Линейная алгебра
 
 Конспекты преподавателей БГУ:
 
