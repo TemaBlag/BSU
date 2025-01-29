@@ -54,7 +54,7 @@
 - [Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)](https://github.com/TemaBlag/BSU/tree/main/computer_science)
 - [Series and functions of a complex argument	 (_Ряды и функции комплексного аргумента_)](https://github.com/TemaBlag/BSU/tree/main/series_and_functions)	
 - [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
-- Operating systems (_Операционные системы_)
+- [Operating systems (_Операционные системы_)](https://github.com/TemaBlag/BSU/tree/main/operating_systems)
 - Modern political economy	(_Современная политэкономия_)
 - [Functional sequences and series, improper integral (_Функциональные последовательности и ряды, несобственный интеграл_)](https://github.com/TemaBlag/BSU/tree/main/functional_sequences)
 
