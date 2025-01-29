@@ -69,7 +69,7 @@
 - [📐 Models and algorithms of discrete optimization problems (_Модели и алгоритмы задач дискретной оптимизации_)](https://github.com/TemaBlag/BSU/tree/main/models_and_algorithms)		 
 - [🏛️ Computer architecture (_Архитектура компьютеров_)](https://github.com/TemaBlag/BSU/tree/main/computer_architecture)	
 - [Differential equations (_Дифференциальные уравнения_)](https://github.com/TemaBlag/BSU/tree/main/differential_equations)
-- Philosophy (_Философия_)
+- [Philosophy (_Философия_)](https://github.com/TemaBlag/BSU/tree/main/philosophy)
 
 </details>
 
