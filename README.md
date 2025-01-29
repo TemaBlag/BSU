@@ -26,10 +26,10 @@
 
 - [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
 - [📖 Fundamentals and Methodologies of programming	(_Основы и методологии программирования_)](https://github.com/TemaBlag/BSU/tree/main/fundamentals)
-- Analytical geometry (_Аналитическая геометрия_)
+- [Analytical geometry (_Аналитическая геометрия_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
 - English (_Английский язык_)
 - Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)	
-- Fundamentals of Higher Algebra (_Основы высшей алгебры_)
+- [Fundamentals of Higher Algebra (_Основы высшей алгебры_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
 
 </details>
 
