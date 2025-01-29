@@ -108,6 +108,13 @@
 
 ---
 
+## Additional resources (Дополнительные источники)
+
+- [ФПМИ "Плюшки"](https://drive.google.com/drive/folders/1E-C97FkYpyokqisJagy1oZDOAcn1ly9g)
+- [fpmi-stud](https://drive.google.com/drive/folders/1fHpN0onSWIi1IBraPW2ExMSHVeRX997I)
+
+---
+
 ## Feedback
 
 - If you have any troubles - [**create issue**](https://github.com/Temablag/BSU/issues/new)
