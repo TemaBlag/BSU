@@ -1,5 +1,5 @@
 # BSU
-🎓Repository for university labs on FAMCS, BSU
+🎓Repository for university materials and labs on FAMCS, BSU
 ---
 
 - [📃 Научные работы (Sience works)](https://github.com/TemaBlag/BSU/tree/main/science_works)
