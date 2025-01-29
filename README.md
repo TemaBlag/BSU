@@ -27,7 +27,7 @@
 - [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
 - [📖 Fundamentals and Methodologies of programming	(_Основы и методологии программирования_)](https://github.com/TemaBlag/BSU/tree/main/fundamentals)
 - [Analytical geometry (_Аналитическая геометрия_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
-- English (_Английский язык_)
+- [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - [Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)](https://github.com/TemaBlag/BSU/tree/main/discrete_math_and_logic)
 - [Fundamentals of Higher Algebra (_Основы высшей алгебры_)](https://github.com/TemaBlag/BSU/tree/main/algebra_and_geometry)
 
@@ -38,7 +38,7 @@
 
 - [Differential and integral calculus	(_Дифференциальное и интегральное исчисление_)](https://github.com/TemaBlag/BSU/tree/main/dif_and_int_calcus)
 - Linear algebra (_Линейная алгебра_)
-- English (_Английский язык_)
+- [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - [⚙️ Machine-oriented programming	(_Машинно-ориентированное программирование_)](https://github.com/TemaBlag/BSU/tree/main/machine_oriented)			 
 - [Discrete mathematics and mathematical logic	(_Дискретная математика и математическая логика_)](https://github.com/TemaBlag/BSU/tree/main/discrete_math_and_logic)	
 - [🌐 Cross-platform application development (_Разработка кросс-платформенных приложений_)](https://github.com/TemaBlag/BSU/tree/main/cross_platform)
@@ -53,7 +53,7 @@
 - [Differential equations (_Дифференциальные уравнения_)](https://github.com/TemaBlag/BSU/tree/main/differential_equations)
 - Fundamentals of theoretical computer Science	 (_Основы теоретической информатики_)
 - Series and functions of a complex argument	 (_Ряды и функции комплексного аргумента_)	
-- English (_Английский язык_)
+- [English (_Английский язык_)](https://github.com/TemaBlag/BSU/tree/main/english)
 - Operating systems (_Операционные системы_)
 - Modern political economy	(_Современная политэкономия_)
 - Functional sequences and series, improper integral (_Функциональные последовательности и ряды, несобственный интеграл_)
