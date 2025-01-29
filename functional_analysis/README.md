@@ -3,7 +3,7 @@
 
 Конспект лекций Дайняка В.В.:
 
-- [ФАН]()
+- [ФАН](https://temablag.github.io/BSU/functional_analysis/fun.pdf)
 
 Конспекты других преподавателей:
 
