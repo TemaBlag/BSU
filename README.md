@@ -8,7 +8,7 @@
 - [🎨 Компьютерная графика (Computer graphics)](https://github.com/TemaBlag/BSU/tree/main/computer_graphics) - `Python`, `HTML`
 - [💻 Технологии программирования (Programming Technologies)](https://github.com/TemaBlag/TechKing) - `Python`, `Django`, `SQL`, `UML`
 - [:abacus: Численые методы (Numerical methods)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods) - `Python`
-- [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1) - `Python`
+- [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/BSU/tree/main/ml) - `Python`
 - [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`, `TeX`
 - [💾 Системы управления базами данных (Database Management System)](https://github.com/TemaBlag/BSU/tree/main/database_management_system) - `PostgreSql`, `SQL`, 
  `UML`
