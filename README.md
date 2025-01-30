@@ -81,7 +81,7 @@
 - [🎨 Computer graphics	(_Компьютерная графика_)](https://github.com/TemaBlag/BSU/tree/main/computer_graphics)
 - [💻 Programming technologies (_Технологии программирования_)](https://github.com/TemaBlag/TechKing)	  
 - [:abacus: Numerical methods (_Численные методы_)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods)		 
-- [🤖 Machine learning and data analysis (_Машинное обучение и анализ данных_)](https://github.com/TemaBlag/Yandex_SDA/tree/main/ML_part1)
+- [🤖 Machine learning and data analysis (_Машинное обучение и анализ данных_)](https://github.com/TemaBlag/BSU/tree/main/ml)
 - [Probability theory and mathematical statistics (_Теория вероятностей и математическая статистика_)](https://github.com/TemaBlag/BSU/tree/main/prob_and_math_stat)
 - [Functional analysis (_Функциональный анализ_)](https://github.com/TemaBlag/BSU/blob/main/functional_analysis/README.md)
 
