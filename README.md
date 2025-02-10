@@ -94,7 +94,7 @@
 - [Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
 - Numerical methods (_Численные методы_)
 - Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)	 
-- [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory.)	
+- [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory)	
 - Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)	 
 - Fundamentals of digital image processing (_Основы цифровой обработки изображений_)
 - [Probability theory and mathematical statistics (_Теория вероятностей и математическая статистика_)](https://github.com/TemaBlag/BSU/tree/main/prob_and_math_stat)
