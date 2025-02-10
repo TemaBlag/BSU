@@ -11,4 +11,5 @@
 ---
 ## Recommended literature
 - Курс Сердобольской М.Л. - [Теория вероятностей и математическая статистика](https://teach-in.ru/course/tvims)
+- Курс Сердобольской М.Л. - [Теория случайных процессов. Лекции](https://teach-in.ru/course/theory-of-random-processes-lectures-serdobolskaya)
 - Курс по [математической статиситике](https://www.youtube.com/watch?v=aJokwg6c2KQ&list=PLthfp5exSWErTVWq4cVtRXDw5MqBqavJ1) от Райгородского А.М.
