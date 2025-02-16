@@ -1,7 +1,7 @@
 # Лабораторная работа 1
 
-- [условие](https://temablag.github.io/BSU/computer_networks/lab1/lab1_theory.pdf)
-- [решение](https://temablag.github.io/BSU/computer_networks/lab1/lab1.pdf)
+- [Условие](https://temablag.github.io/BSU/computer_networks/lab1/lab1_theory.pdf)
+- [Решение](https://temablag.github.io/BSU/computer_networks/lab1/lab1.pdf)
 
 ## Описание
 Данная лабораторная работа направлена на изучение аппаратного обеспечения персонального компьютера и сетевого оборудования. В ходе выполнения работы вы ознакомитесь с основными компонентами ПК, их характеристиками, способами подключения, а также с сетевым оборудованием, используемым в локальных и корпоративных сетях.
