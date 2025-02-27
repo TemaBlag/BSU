@@ -6,7 +6,7 @@
 - [🎯 Методы оптимизации (Optimization methods)](https://github.com/TemaBlag/BSU/tree/main/optimization_methods)
 - [:dna: Введение в Биоинформатику (Introduction to Bioinformatics)](https://github.com/TemaBlag/BSU/tree/main/bioinformatics) - `Python`
 - [🎨 Компьютерная графика (Computer graphics)](https://github.com/TemaBlag/BSU/tree/main/computer_graphics) - `Python`, `HTML`
-- [💻 Технологии программирования (Programming Technologies)](https://github.com/TemaBlag/TechKing) - `Python`, `Django`, `SQL`, `UML`
+- [💻 Технологии программирования (Programming Technologies)](https://github.com/TemaBlag/TechKing) - `Python`, `Django`, `SQL`, `UML`, `GCP`, `GITHUB`
 - [:abacus: Численые методы (Numerical methods)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods) - `Python`
 - [🤖 Машинное обучение и анализ данных (Machine learning and data analysis)](https://github.com/TemaBlag/BSU/tree/main/ml) - `Python`
 - [🧩 Алгоритмы и структуры данных (Algorithms and Data Structures)](https://github.com/TemaBlag/BSU/tree/main/algorithms_and_ds) - `Python`, `C++`, `TeX`
