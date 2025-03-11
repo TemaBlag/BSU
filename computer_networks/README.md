@@ -6,6 +6,7 @@
 - [lab2](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab2) - [Основы диагностики сети консольными средствами ОС WINDOWS (_Basics of network diagnostics using WINDOWS console tools_)](https://temablag.github.io/BSU/computer_networks/lab2/lab2.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab2/lab2_theory.pdf)
 - [lab3](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab3) - [Знакомство с пакетом Cisco Packet Tracer Student (_Getting to know the Cisco Packet Tracer Student Package_)](https://temablag.github.io/BSU/computer_networks/lab3/lab3.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab3/lab3_theory.pdf)
 - [lab4](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab4) - [Работа с сетевыми адресами (_Working with network addresses_)](https://temablag.github.io/BSU/computer_networks/lab4/lab4.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab4/lab4_theory.pdf)
+- [lab5](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab5) - [Внедрение адресации VLSM (_Implementation of VLSM addressing_)](https://temablag.github.io/BSU/computer_networks/lab4/VLSM.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab4/lab5_theory.pdf)
 
 
 Курсы на платформе Stepik:
