@@ -1,7 +1,7 @@
 # :abacus: Numerical methods. Semester 6
 Численные методы. Семестр 6
 
-- [theory](https://temablag.github.io/BSU/numerical_methods/sem6/theory) - Теория
+- [theory](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/theory) - Теория
 ___
 Лабораторные работы:
 
