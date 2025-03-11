@@ -92,7 +92,7 @@
 
 - Course paper (_Курсовая работа_) 
 - [Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
-- Numerical methods (_Численные методы_)
+- [:abacus: Numerical methods (_Численные методы_)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods)		 
 - Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)	 
 - [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory)	
 - Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)	 
