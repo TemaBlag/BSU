@@ -4,6 +4,9 @@
 
 Разработать программу построения морфологического скелета изображения и восстановления изображения по морфологическому скелету для бинарных изображений и различных структурирующих элементов.
 
+## Ноутбук
+lab1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TemaBlag/BSU/blob/main/image_processing/lab1/lab1.ipynb)
+
 ## Содержание отчета
 
 1. Исходные изображения
