@@ -3,6 +3,7 @@
 ---
 
 - [📃 Научные работы (Sience works)](https://github.com/TemaBlag/BSU/tree/main/science_works)
+- [🖼️ Fundamentals of digital image processing (_Основы цифровой обработки изображений_)](https://github.com/TemaBlag/BSU/tree/main/image_processing) - `Python`
 - [🎯 Методы оптимизации (Optimization methods)](https://github.com/TemaBlag/BSU/tree/main/optimization_methods)
 - [:dna: Введение в Биоинформатику (Introduction to Bioinformatics)](https://github.com/TemaBlag/BSU/tree/main/bioinformatics) - `Python`
 - [🎨 Компьютерная графика (Computer graphics)](https://github.com/TemaBlag/BSU/tree/main/computer_graphics) - `Python`, `HTML`
@@ -96,7 +97,7 @@
 - Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)	 
 - [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory)	
 - Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)	 
-- Fundamentals of digital image processing (_Основы цифровой обработки изображений_)
+- [🖼️ Fundamentals of digital image processing (_Основы цифровой обработки изображений_)](https://github.com/TemaBlag/BSU/tree/main/image_processing)
 - [Probability theory and mathematical statistics (_Теория вероятностей и математическая статистика_)](https://github.com/TemaBlag/BSU/tree/main/prob_and_math_stat)
 
 </details>
