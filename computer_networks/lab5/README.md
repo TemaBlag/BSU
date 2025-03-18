@@ -1,7 +1,7 @@
 # Лабораторная работа 5
 
 - [Условие](https://temablag.github.io/BSU/computer_networks/lab5/lab5_theory.pdf)
-- [Решение](https://temablag.github.io/BSU/computer_networks/lab5/master.pdf)
+- [Решение](https://temablag.github.io/BSU/computer_networks/lab5/lab5.pdf)
 
 ### Описание
 Стажер-администратор сети обратился к стажеру-провайдера с запросом на выделение блока адресов для создание схемы IP-адресации
