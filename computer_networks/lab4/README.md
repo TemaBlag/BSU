@@ -1,6 +1,7 @@
 # Лабораторная работа 4
 
-- [Условие](https://temablag.github.io/BSU/computer_networks/lab4/lab4.pdf)
+- [Условие](https://temablag.github.io/BSU/computer_networks/lab4/lab4_theory.pdf)
+- [Решение](https://temablag.github.io/BSU/computer_networks/lab4/lab4.pdf)
 
 ### Описание
 Лабораторная работа выполняется на занятии на листе бумаги и сдается преподавателю в конце пары.
