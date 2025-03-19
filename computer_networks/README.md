@@ -1,4 +1,4 @@
-# Computer networks
+# 📡 Computer networks
 Компьютерные сети
 
 - [lab1](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab1) - [Аппаратные средства ПК и
