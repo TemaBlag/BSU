@@ -8,7 +8,7 @@
 
 Книга: Харин, Зуев, Жук - [Теория вероятностей, математическая и прикладная статистика](https://temablag.github.io/BSU/prob_and_math_stat/%D0%A5%D0%B0%D1%80%D0%B8%D0%BD_%D0%97%D1%83%D0%B5%D0%B2_%D0%96%D1%83%D0%BA.pdf)
 
-Конспект лекций Сердобольской - [Теории случайных процессов](https://temablag.github.io/BSU/prob_and_math_stat/theory-of-random-processes-serdobolskaya.pdf)
+Конспект лекций Сердобольской - [Теория случайных процессов](https://temablag.github.io/BSU/prob_and_math_stat/theory-of-random-processes-serdobolskaya.pdf)
 
 ---
 ## Recommended literature
