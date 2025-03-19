@@ -3,6 +3,7 @@
 ---
 
 - [📃 Научные работы (Sience works)](https://github.com/TemaBlag/BSU/tree/main/science_works)
+- [📡 Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
 - [🖼️ Fundamentals of digital image processing (_Основы цифровой обработки изображений_)](https://github.com/TemaBlag/BSU/tree/main/image_processing) - `Python`
 - [🎯 Методы оптимизации (Optimization methods)](https://github.com/TemaBlag/BSU/tree/main/optimization_methods)
 - [:dna: Введение в Биоинформатику (Introduction to Bioinformatics)](https://github.com/TemaBlag/BSU/tree/main/bioinformatics) - `Python`
@@ -92,7 +93,7 @@
 <summary>6️⃣ semester 6</summary>
 
 - Course paper (_Курсовая работа_) 
-- [Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
+- [📡 Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
 - [:abacus: Numerical methods (_Численные методы_)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods)		 
 - [Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)](https://github.com/TemaBlag/BSU/tree/main/partial_diff_equations)	 
 - [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory)	
