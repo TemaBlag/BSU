@@ -10,6 +10,8 @@
 
 Конспект лекций Сердобольской - [Теория случайных процессов](https://temablag.github.io/BSU/prob_and_math_stat/theory-of-random-processes-serdobolskaya.pdf)
 
+Задачник по ТВиМС от Харина - [Задачник в zip](https://github.com/TemaBlag/BSU/blob/main/prob_and_math_stat/%D1%81ollection_of_problems.pdf.zip)
+
 ---
 ## Recommended literature
 - Курс Сердобольской М.Л. - [Теория вероятностей и математическая статистика](https://teach-in.ru/course/tvims)
