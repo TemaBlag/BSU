@@ -8,7 +8,7 @@
 - [lab4](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab4) - [Работа с сетевыми адресами (_Working with network addresses_)](https://temablag.github.io/BSU/computer_networks/lab4/lab4.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab4/lab4_theory.pdf)
 - [lab5](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab5) - [Внедрение адресации VLSM (_Implementation of VLSM addressing_)](https://temablag.github.io/BSU/computer_networks/lab5/lab5.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab5/lab5_theory.pdf)
 - [lab6](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab6) - [Конфигурирование DHCP-сервера (_Configuring the DHCP server_)](https://temablag.github.io/BSU/computer_networks/lab6/lab6.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab6/lab6_theory.pdf)
-- [lab7](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab7) - [Начальная настройка маршрутизатора Cisco с использованием IOS CLI (_Initial configuration of a Cisco router using the IOS CLI_)](https://temablag.github.io/BSU/computer_networks/lab6/lab6.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab7/lab7_theory.pdf)
+- [lab7](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab7) - [Начальная настройка маршрутизатора Cisco с использованием IOS CLI (_Initial configuration of a Cisco router using the IOS CLI_)](https://temablag.github.io/BSU/computer_networks/lab7/lab7.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab7/lab7_theory.pdf)
 
 Курсы на платформе Stepik:
 - [Основы компьютерных сетей](https://stepik.org/course/208904/syllabus?search=6506192455)
