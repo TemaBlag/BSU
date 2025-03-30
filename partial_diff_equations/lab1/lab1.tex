@@ -1,0 +1,1260 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{setspace}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+\begin{document}
+
+\setcounter{page}{1}
+\setstretch{1.0}
+\thispagestyle{empty}
+\newgeometry{
+	left=0mm,
+    top=20mm,
+    right=0mm,
+    bottom=20mm
+}
+\begin{center}
+\bf
+\vspace{4cm}
+{
+\setstretch{0.9}
+\mbox{МИНИСТЕРСТВО~ОБРАЗОВАНИЯ~РЕСПУБЛИКИ~БЕЛАРУСЬ} \\~\\
+\mbox{БЕЛОРУССКИЙ~ГОСУДАРСТВЕННЫЙ~УНИВЕРСИТЕТ} \\~\\
+\mbox{МЕХАНИКО-МАТЕМАТИЧЕСКИЙ~ФАКУЛЬТЕТ} \\~\\
+\mbox{Кафедра~биомедицинской~информатики} \\~\\
+}
+\vspace{4cm}
+\bf
+\mbox{Классификация дифференциальных уравнений с частными производными}\\
+\vspace{1cm}
+\rm Лабораторная работа 
+\vspace{3cm}
+\end{center}
+\begin{tabular}{ll}
+\hspace{10.5cm}
+&Благодарного Артёма Андреевича~\\
+&студента 3-го курса\\~\\
+&Преподаватель:\\
+&Дайняк Виктор Владимирович
+\end{tabular}
+\vspace{7cm}
+\begin{center}
+Mинск, 2025
+\end{center}
+\clearpage
+\restoregeometry
+
+\begin{center}    
+\noindent \textbf{Задание 1. №1.5}
+\end{center}
+
+Привести к одному из канонических видов уравнение:
+
+\begin{equation*}
+    3u_{xx} + u_{xy} + 3u_{x} + u_{y} - u = -y
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    3 (dy)^2 - dy \cdot dx = 0
+\end{equation*}
+\begin{equation*}
+   3 \left( \frac{dy}{dx} \right)^2 - \left( \frac{dy}{dx} \right) = 0
+\end{equation*}
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    3t^2 - t = 0 
+\end{equation*}
+
+Дискриминант $D = 1 > 0$, следовательно, уравнение \textbf{гиперболического типа}.
+
+Решение уравнения:
+\begin{equation*}
+    t(3t - 1) = 0 \Rightarrow 
+    \begin{cases}
+    t_1 = 0 \\
+    t_2 = \frac{1}{3}
+    \end{cases}
+\end{equation*}
+
+Соответствующие характеристические переменные:
+\begin{align*}
+    &t_1 = 0: \quad y = C_1 \\
+    &t_2 = \frac{1}{3}: \quad y = \frac{1}{3} x + C_2
+\end{align*}
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y, \quad \quad \quad \xi_x = 0,  \quad \quad \xi_y = 1 \\
+    \eta &= y - \frac{x}{3}, \quad \eta_x = -\frac{1}{3},  \quad \eta_y = 1
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+3 & u_x = -\frac{1}{3} u_{\eta} \\
+1 & u_y = u_{\eta} + u_{\xi} \\
+3 & u_{xx} = \frac{1}{9} u_{\eta\eta} \\
+1 & u_{xy} = -\frac{1}{3} u_{\eta\xi} - \frac{1}{3} u_{\eta\eta}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : & 1 \\
+u_{\eta} & : & -1+1=0 \\
+u_{\xi\xi} & : & 0\\
+u_{\xi\eta} & : & -\frac{1}{3}\\
+u_{\eta\eta} & : &  \frac{1}{3} -  \frac{1}{3} = 0
+\end{array}
+\)
+\end{flushleft}
+
+\begin{flushleft}
+\begin{flalign*}
+&-\frac{1}{3} u_{\xi\eta} + u_{\xi} - u = -\xi &\\
+&u_{\xi\eta} - 3 u_{\xi} + 3 u - 3 \xi = 0 &
+\end{flalign*}
+\text{Ответ: } \( u_{\xi\eta} - 3 u_{\xi} + 3 u - 3 \xi = 0. \)
+\end{flushleft}
+
+\begin{center}    
+\noindent \textbf{Задание 2. №1.29}
+\end{center}
+
+Привести к каноническому виду уравнение:
+
+\begin{equation*}
+    u_{xx} - 2 \sin x \cdot u_{xy} - \cos^2 x \cdot u_{yy} - \cos x \cdot u_y = 0
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    {(dy)}^2 + 2 \sin x \, {dy}{dx} - \cos^2 x \, {(dx)}^2 = 0
+\end{equation*}
+\begin{equation*}
+    \left( \frac{dy}{dx} \right)^2 + 2 \sin x \frac{dy}{dx} - \cos^2 x = 0
+\end{equation*}
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    t^2 + 2 \sin x \, t - \cos^2 x \,= 0 
+\end{equation*}
+
+Дискриминант $D = 4 > 0$, следовательно, уравнение \textbf{гиперболического типа}.
+
+Решение квадратного уравнения:
+
+\begin{equation*}
+    t_{1,2} = - \sin x \pm 1
+\end{equation*}
+
+Соответствующие характеристики:
+\begin{align*}
+    &t_1 = - \sin x - 1: \quad y = \cos x - x + C_1 \\
+    &t_2 = - \sin x + 1: \quad y = \cos x + x + C_2
+\end{align*}
+
+Выбираем новые переменные:
+\begin{align*}
+     \xi &= y - \cos x + x,  \quad \quad \quad \xi_x = \sin x + 1 \, ,  \quad \xi_y = 1, \quad \xi_{xx} = \cos x\\
+     \eta &= y - \cos x - x, \quad \quad \quad \eta_x = \sin x - 1 \, ,  \quad \eta_y = 1, \quad \eta_{xx} = \cos x
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = (\sin x + 1)u_{\xi} + (\sin x - 1)u_{\eta} \\
+- \cos x \, & u_y = u_{\eta} + u_{\xi} \\
+1 & u_{xx} = (\sin x + 1)^2u_{\xi\xi} + 2(\sin x + 1)(\sin x - 1)u_{\xi\eta} + (\sin x - 1)^2u_{\eta\eta} + \\ & + \cos x \,u_{\xi} + \cos x \,u_{\eta}\\
+- 2 \sin x \, & u_{xy} = (\sin x + 1) u_{\xi\xi} + 2 \sin x \, u_{\xi\eta} + (\sin x - 1) u_{\eta\eta} \\
+- \cos^2 x \, & u_{yy} = u_{\xi\xi} + 2u_{\xi\eta} + u_{\eta\eta} \\
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : & -\cos x \, + \cos x \, = 0\\
+u_{\eta} & : & -\cos x \, + \cos x \, = 0 \\
+u_{\xi\xi} & : & (\sin x + 1)^2 - 2 \sin x \, (\sin x \, + 1) - \cos^2 x \, = 0 \\
+u_{\xi\eta} & : & 2(\sin x + 1)(\sin x - 1) - 4 \sin^2 x \, - 2 \cos^2 x \,  = -4\\
+u_{\eta\eta} & : &  (\sin x - 1)^2 - 2 \sin x \, (\sin x \, - 1) - \cos^2 x \, = 0
+\end{array}
+\)
+\end{flushleft}
+
+$-4 u_{\xi\eta} = 0$
+
+\vspace{2mm}
+\textbf{Ответ:} $ u_{\xi\eta} = 0. $
+
+\vspace{14mm}
+\begin{center}    
+\noindent \textbf{Задание 3. №1.50}
+\end{center}
+
+Привести к каноническому виду уравнение в каждой из областей, где сохраняется тип уравнения:
+\begin{equation*}
+    \operatorname{sign} y \, u_{xx} + 2 u_{xy} + u_{yy} = 0
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    \operatorname{sign} y (dy)^2 - 2 dy dx + (dx)^2 = 0
+\end{equation*}
+\begin{equation*}
+    \operatorname{sign} y \left( \frac{dy}{dx} \right)^2 - 2 \frac{dy}{dx} + 1 = 0
+\end{equation*}
+
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    \operatorname{sign} y \cdot t^2 - 2t + 1 = 0
+\end{equation*}
+
+Дискриминант:
+\begin{equation*}
+    D = 4 - 4 \operatorname{sign} y
+\end{equation*}
+\begin{flushleft}
+    \(\text{I.} \quad \operatorname{sign} y = 0, \quad y = 0, \quad D = 4 > 0, \text{ следовательно, уравнение \textbf{гиперболического типа}.}\)
+\end{flushleft}
+\begin{equation*}
+    \begin{aligned}
+        - 2 dy \, dx + (dx)^2 &= 0 \\
+        dx(dx - 2 dy) &= 0 \\
+    \end{aligned}
+\end{equation*}
+
+Соответствующие характеристики:
+\begin{align*}
+    &dx = 0 \quad \quad x = C_1 \\
+    &dy = \frac{1}{2} dx \quad y = \frac{1}{2}  x + C_2
+\end{align*}
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y - \frac{1}{2}x, \quad \xi_x = -\frac{1}{2}, \quad \xi_y = 1 \\
+    \eta &= x, \quad  \quad  \quad  \quad \eta_x = 1,  \quad \quad \eta_y = 0
+\end{align*}
+
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = - \frac{1}{2}u_{\xi} + u_{\eta} \\
+0 & u_y = u_{\xi}\\
+0 & u_{xx} = \frac{1}{4}u_{\xi\xi} - u_{\xi\eta} + u_{\eta\eta}\\
+2 & u_{xy} = -\frac{1}{2}u_{\xi\xi} + u_{\xi\eta}\\
+1 & u_{yy} = u_{\xi\xi}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : &  0\\
+u_{\eta} & : & 0 \\
+u_{\xi\xi} & : &  1 - 1 = 0\\
+u_{\xi\eta} & : & 2 \\
+u_{\eta\eta} & : &  0
+\end{array}
+\)
+\end{flushleft}
+
+$2 u_{\xi\eta} = 0$
+
+\textbf{Ответ:} $ u_{\xi\eta} = 0 $
+
+\begin{flushleft}
+    \(\text{II.} \quad \operatorname{sign} y = 1, \quad y > 0, \quad D = 0, \text{ следовательно, уравнение \textbf{параболического типа}.}\)
+\end{flushleft}
+
+Характеристическое уравнение:
+\begin{align*}
+    t^2 - 2t + 1 = 0 \\
+    (t - 1)^2 = 0 \\
+    t = 1
+\end{align*}
+
+Характеристики:
+\begin{align*}
+    &dy = dx \quad y = x + C_1 \\
+    &x = C_2
+\end{align*}
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y - x \quad \quad \xi_x = -1, \quad \xi_y = 1 \\
+    \eta &= x \quad  \quad  \quad  \quad \eta_x = 1,  \quad \quad \eta_y = 0
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = - u_{\xi} + u_{\eta} \\
+0 & u_y = u_{\xi}\\
+1 & u_{xx} = u_{\xi\xi} - 2 u_{\xi\eta} + u_{\eta\eta}\\
+2 & u_{xy} = -u_{\xi\xi} + u_{\xi\eta}\\
+1 & u_{yy} = u_{\xi\xi}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : &  0\\
+u_{\eta} & : & 0 \\
+u_{\xi\xi} & : &  1 + 1 - 2 = 0\\
+u_{\xi\eta} & : & -2 + 2 = 0 \\
+u_{\eta\eta} & : &  1
+\end{array}
+\)
+\end{flushleft}
+
+$u_{\eta\eta} = 0$
+
+\textbf{Ответ:} $ u_{\eta\eta} = 0. $
+
+\begin{flushleft}
+    \(\text{III.} \quad \operatorname{sign} y = -1, \quad y < 0, \quad D = 8, \text{ следовательно, уравнение \textbf{гиперболического типа}.}\)
+\end{flushleft}
+
+Характеристическое уравнение:
+\begin{equation*}
+    -t^2 - 2t + 1 = 0
+\end{equation*}
+
+Решение квадратного уравнения:
+\begin{equation*}
+    t_{1,2} = \frac{2 \pm \sqrt{8}}{-2} = -1 \pm \sqrt{2}
+\end{equation*}
+
+Соответствующие характеристически:
+\begin{align*}
+    dy = (-1 - \sqrt{2})dx \quad  \quad y = (-1 - \sqrt{2})x + C_1 \\
+    dy = (-1 + \sqrt{2})dx \quad  \quad y = (-1 + \sqrt{2})x + C_2
+\end{align*}
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y + (1 + \sqrt{2}) x, \quad \quad \xi_x = 1 + \sqrt{2}, \quad \quad \xi_y = 1 \\
+    \eta &= y + (1 - \sqrt{2}) x, \quad  \quad\eta_x = 1 - \sqrt{2}, \quad \quad \eta_y = 1
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = (1 + \sqrt{2}) u_{\xi} + (1 - \sqrt{2}) u_{\eta} \\
+0 & u_y = u_{\xi} + u_{\eta}\\
+-1 & u_{xx} = (1 + \sqrt{2})^2 u_{\xi\xi} + 2(1 + \sqrt{2})(1 - \sqrt{2})u_{\xi\eta} + (1 - \sqrt{2})^2u_{\eta\eta}\\
+2 & u_{xy} = (1 + \sqrt{2})u_{\xi\xi} + 2u_{\xi\eta} + (1 - \sqrt{2})u_{\eta\eta}\\
+1 & u_{yy} = u_{\xi\xi} + 2u_{\xi\eta} + u_{\eta\eta}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\noindent
+\begin{flalign*}
+    u_{\xi} &: 0 &\\
+    u_{\eta} &: 0 &\\
+    u_{\xi\xi} &: - (1+\sqrt{2})^2 + 2(1+\sqrt{2})(1-\sqrt{2}) + 1 = 0 &\\
+    u_{\eta\eta} &: - (1-\sqrt{2})^2 + 2(1+\sqrt{2})(1-\sqrt{2}) + 1 = 0 &\\
+    u_{\xi\eta} &: -2(1+\sqrt{2})(1-\sqrt{2}) + 4 + 2 = 8 &
+\end{flalign*}
+
+$8u_{\xi\eta} = 0$
+
+\textbf{Ответ:} $ u_{\xi\eta} = 0. $
+
+\begin{center}
+\noindent \textbf{Канонический вид уравнения}
+\end{center}
+
+\[
+\operatorname{sign} y \cdot u_{xx} + 2 u_{xy} + u_{yy} = 0
+\]
+
+\begin{equation*}
+    \begin{cases}
+        u_{\xi\eta} = 0, \quad y = 0, \quad D = 4 \\
+        u_{\xi\eta} = 0, \quad y < 0, \quad D = 8 \\
+        u_{\eta\eta} = 0, \quad y > 0, \quad D = 0
+    \end{cases}
+\end{equation*}
+
+
+\vspace{100mm}
+\vspace{17mm}
+\begin{center}    
+\noindent \textbf{Задание 4. №5}
+\end{center}
+Привести к каноническому виду и упростить уравнение:
+
+\begin{equation*}
+    a u_{xx} + 2a u_{xy} + a u_{yy} + b u_x + c u_y + u = 0
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    a dy^2 - 2a dy dx + a (dx)^2 = 0
+\end{equation*}
+\begin{equation*}
+    a \left(\frac{dy}{dx}\right)^2 - 2a \left(\frac{dy}{dx}\right) + a = 0
+\end{equation*}
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    a t^2 - 2a t + a = 0
+\end{equation*}
+
+Дискриминант $D = 4a^2 - 4a^2 = 0$, следовательно, уравнение \textbf{параболического типа}.
+
+Решение квадратного уравнения:
+\begin{equation*}
+    a (t - 1)^2 = 0
+\end{equation*}
+\begin{equation*}
+    t = 1
+\end{equation*}
+
+Соответствующие характеристики:
+\begin{equation*}
+    dy = dx
+\end{equation*}
+\begin{equation*}
+    y = x + C_1
+\end{equation*}
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y - x,   \quad \xi_x = -1, \quad \quad \xi_y = 1 \\
+    \eta &= x, \quad \quad \quad \eta_x = 1, \quad \quad \eta_y = 0
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+b & u_x = - u_{\xi} + u_{\eta} \\
+c & u_y = u_{\xi} \\
+a & u_{xx} = u_{\xi\xi} - 2 u_{\xi\eta} + u_{\eta\eta} \\
+2a & u_{xy} = - u_{\xi\xi} + u_{\xi\eta} \\
+a & u_{yy} = u_{\xi\xi}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+    u_{\xi} &:& -b + c \\
+    u_{\eta} &:& b \\
+    u_{\xi\xi} &:& a - 2a + a = 0 \\
+    u_{\eta\eta} &:& -2a + 2a = 0 \\
+    u_{\xi\eta} &:& a
+\end{array}
+\)
+\end{flushleft}
+
+$ au_{\eta\eta} + bu_{\eta} + (c-b)u_{\xi}+u=0$
+
+\vspace{2mm}
+Подстановка $ u = e^{\alpha_1 \xi + \alpha_2 \eta} \cdot v(\xi, \eta) $:
+\begin{flushleft}
+\(
+\begin{array}{r@{}l}
+    u_{\xi} &{}= (\alpha_1 v + v_{\xi}) e^{\alpha_1 \xi + \alpha_2 \eta}, \\
+    u_{\eta} &{}= (\alpha_2 v + v_{\eta}) e^{\alpha_1 \xi + \alpha_2 \eta}, \\
+    u_{\eta\eta} &{}= (\alpha_2^2 v + 2\alpha_2 v_{\xi} + v_{\eta\eta}) e^{\alpha_1 \xi + \alpha_2 \eta}.
+\end{array}
+\)
+\end{flushleft}
+
+Подстановка в уравнение:
+\begin{equation*}
+    (a(\alpha_2^2 v + 2\alpha_2 v_{\xi} + v_{\eta\eta}) + b (\alpha_2 v + v_{\eta}) + (c - b)(\alpha_1 v + v_{\xi}) + v) e^{\alpha_1 \xi + \alpha_2 \eta}= 0.
+\end{equation*}
+
+Группировка по $ v, v_{\xi}, v_{\eta}, v_{\eta\eta} $:
+\begin{equation*}
+    v\left( a \alpha_2^2 + b \alpha_2 + (c - b) \alpha_1 + 1 \right) + 
+    v_{\eta} \left( 2\alpha_2 + b \right) + 
+    v_{\xi} (c - b) + 
+    v_{\eta\eta} a = 0.
+\end{equation*}
+
+\text{Зануляем коэффицинты:}
+\begin{equation*}
+ \begin{cases}
+a\, \alpha_2^2 + b\alpha_2+(c - b) \alpha_1 + 1 = 0 \quad\Longrightarrow\quad \alpha_1 = -\frac{2b^2-ab^2-4}{4(c-b)} \\
+2\alpha_2 + b = 0 \quad \quad \quad \quad \quad \quad \quad \quad \quad\Longrightarrow\quad \alpha_2 = -\frac{b}{2},
+\end{cases}
+\end{equation*}
+
+$av_{\eta\eta} + (c - b)\,v_{\xi} = 0.$
+
+\vspace{2mm}
+\textbf{Ответ:} $v_{\eta\eta} + \frac{(c - b)}{a}\,v_{\xi} = 0.$
+
+\vspace{100mm}
+\vspace{79mm}
+\begin{center}    
+    \textbf{Задание 5. №3.5}
+\end{center}
+
+Найти общее решение уравнения с постоянными коэффициентами
+
+\begin{equation*}
+    u_{yy} - 2u_{xy} + 2u_x - u_y = 4e^x
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    (dx)^2 + 2d(dx dy) = 0
+\end{equation*}
+\begin{equation*}
+    dx (dx + 2 dy) = 0
+\end{equation*}
+
+Рассмотрим случаи:
+\[
+\begin{cases}
+    dx = 0 \hspace{11mm} \Rightarrow \quad   x = C \\
+    dx = -2dy \quad \Rightarrow \quad x = -2y + C
+\end{cases}
+\]
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= x,   \quad \quad \quad  \xi_x = 1,  \quad \quad \xi_y = 0 \\
+    \eta &= x + 2y, \quad  \eta_x = 1, \quad \quad \eta_y = 2
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+2 & u_x = u_{\xi} + u_{\eta} \\
+-1 & u_y = 2u_{\eta} \\
+0 & u_{xx} = u_{\xi\xi} + 2 u_{\xi\eta} + u_{\eta\eta} \\
+-2 & u_{xy} = 2 u_{\xi\eta} + 2 u_{\eta\eta} \\
+1 & u_{yy} = 4 u_{\eta\eta}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+    u_{\xi} &:& 2 \\
+    u_{\eta} &:& 2-2=0 \\
+    u_{\xi\xi} &:& 0 \\
+    u_{\eta\eta} &:& -4 \\
+    u_{\xi\eta} &:& -4 + 4 = 0
+\end{array}
+\)
+\end{flushleft}
+\begin{equation*}
+    \begin{aligned}
+        -4u_{\xi\eta} + 2u_{\xi} &= 4e^x \\
+        u_{\xi\eta} - \frac{1}{2} u_{\xi} &= -e^x \\
+        \left( u_{\eta} - \frac{1}{2} u \right)_{\xi} &= -e^x
+    \end{aligned}
+\end{equation*}
+
+Сделаем замену: $ u_{\eta} - \frac{1}{2} u = v$
+\begin{equation*}
+v_{\xi}=-e^x
+\end{equation*}
+
+Интегрируем:
+\begin{equation*}
+    v = \int  - e^{\xi} d\xi =  - e^{\xi} + C(\eta)
+\end{equation*}
+
+Обратная подставновка:
+\begin{equation*}
+    u_{\eta} - \frac{1}{2} u= - e^{\xi} + C(\eta)
+\end{equation*}
+
+Общее решение неоднородного уравнения представим в виде суммы:
+\begin{equation*}
+    u = u_{\text{общ}} + u_{\text{частн}}
+\end{equation*}
+
+где \( u_{\text{общ}} \) — общее решение однородного уравнения, а \( u_{\text{частн}} \) — частное решение.
+
+Рассмотрим однородное уравнение:
+\begin{align*}
+     u_{\eta} - \frac{1}{2} u=0 \\
+     u_{\eta} =\frac{1}{2} u\\
+     \frac{du}{d\eta}=\frac{1}{2}u\\
+     \frac{du}{\eta}=\frac{d\eta}{2}
+\end{align*}
+
+Решение однородного уравнения:
+\begin{equation*}
+    \begin{aligned}
+     ln(u) &=\frac{1}{2}\eta +C_1(\xi) \\
+     u&=e^{\frac{1}{2}\eta +C_1(\xi)} \\
+     u&= e^{\frac{1}{2}\eta}C_2(\xi)
+    \end{aligned}
+\end{equation*}
+
+Найдём частное решение:
+\begin{equation*}
+    \begin{aligned}
+        u_{\eta} &= \frac{1}{2} e^{\frac{1}{2}\eta} C_2 + e^{\frac{1}{2}\eta} C_{2\eta}, \\
+        \frac{1}{2} e^{\frac{1}{2}\eta} C_2 + e^{\frac{1}{2}\eta} C_{2\eta} 
+        &- \frac{1}{2} e^{\frac{1}{2}\eta} C_2 = - e^{\xi} + C(\eta), \\
+        e^{\frac{1}{2}\eta} C_{2\eta} &= - e^{\xi} + C(\eta), \\
+        C_{2\eta} &= (C(\eta) - e^{\xi}) e^{-\frac{1}{2}\eta}, \\
+        C_2(\xi, \eta) &= \int (C(\eta) - e^{\xi}) e^{-\frac{1}{2}\eta} d\eta.
+    \end{aligned}
+\end{equation*}
+
+Таким образом, общее решение уравнения:
+\begin{equation*}
+    u = e^{\frac{1}{2}\eta} ( C_1(\xi) + C_2(\xi, \eta) )
+\end{equation*}
+\begin{equation*}
+     u = e^{\frac{1}{2}(x+2y)} ( C_1(x) + C_2(x, x+2y) )
+\end{equation*}
+
+\textbf{Ответ:} $u = e^{\frac{1}{2}(x+2y)} ( C_1(x) + C_2(x, x+2y) ).$
+
+\vspace{51mm}
+\begin{center}    
+    \textbf{Задание 6. №3.30}
+\end{center}
+
+В каждой из областей, где сохраняется тип уравнения, найти общее решение уравнения:
+
+\begin{equation*}
+    u_{xx} - 2\sin{x} u_{xy} - (3 + \cos^2{x})u_{yy} - \cos{x} u_{y} = 0
+\end{equation*}
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+    (dy)^2 + 2\sin{x} (dx \cdot dy) - (3 + \cos^2{x}) (dx)^2 = 0
+\end{equation*}
+\begin{equation*}
+   \left( \frac{dy}{dx} \right)^2 + 2\sin{x} \left( \frac{dy}{dx} \right)- (3 + \cos^2{x}) = 0
+\end{equation*}
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    t^2 + 2\sin{x} t - (3 + \cos^2{x}) = 0
+\end{equation*}
+
+\begin{equation*}
+    D = 4\sin^2{x} + 4\cdot(3 + \cos^2{x}) = 16 \Rightarrow \text{уравнение гиперболическое}
+\end{equation*}
+
+Корни уравнения:
+\begin{equation*}
+    t_{1,2} = -\sin{x} \pm 2
+\end{equation*}
+
+Рассмотрим уравнения характеристик:
+\[
+\begin{cases}
+    dy = (-\sin{x} + 2)dx, \\
+    dy = (-\sin{x} - 2)dx.
+\end{cases}
+\]
+
+Интегрируя, получаем:
+\[
+\begin{cases}
+    y = -\cos{x} + 2x + C_1, \\
+    y = -\cos{x} - 2x + C_2.
+\end{cases}
+\]
+
+Выбираем новые переменные:
+\begin{align*}
+   \xi &= y - \cos{x} + 2x, \quad \xi_x = \sin{x} + 2, \quad \xi_y = 1, \quad \xi_{xx} = \cos{x}, \\
+   \eta &= y - \cos{x} - 2x, \quad \eta_x = \sin{x} - 2, \quad \eta_y = 1,  \quad \eta_{xx} = \cos{x}.
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = (\sin{x} + 2) u_{\xi} + (\sin{x} - 2) u_{\eta} \\
+-\cos x & u_y = u_{\xi} + u_{\eta} \\
+1 & u_{xx} = (\sin{x} + 2)^2 u_{\xi\xi} + 2(\sin{x} + 2)(\sin{x} - 2) u_{\xi\eta} + (\sin{x} - 2)^2u_{\eta\eta} + \\ & + \cos x u_{\xi} + \cos x u_{\eta}\\
+-2 \sin x & u_{xy} = (\sin{x} + 2) u_{\xi\xi} + 2\sin{x} u_{\xi\eta} + (\sin{x} - 2) u_{\eta\eta}  \\
+-(3+\cos^2 x) & u_{yy} = u_{\xi\xi} + 2 u_{\xi\eta} + u_{\eta\eta}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+    u_{\xi} &:& -\cos x + \cos x = 0 \\
+    u_{\eta} &:& -\cos x + \cos x = 0  \\
+    u_{\xi\xi} &:& (\sin{x} + 2)^2 - 2\sin{x} (\sin{x} + 2) - (3 + \cos^2{x})=0 \\
+    u_{\xi\eta} &:& 2(\sin{x} + 2)(\sin{x} - 2) - 4\sin^2{x} - 2(3 +\cos^2{x})=-16\\
+    u_{\eta\eta} &:& (\sin{x} - 2)^2 - 2\sin{x} (\sin{x} - 2) - (3 + \cos^2{x})=0
+\end{array}
+\)
+\end{flushleft}
+
+Подставляя, получаем:
+\begin{equation*}
+    u_{\xi\eta} = 0
+\end{equation*}
+\begin{equation*}
+    u_{\xi} = C(\xi)
+\end{equation*}
+\begin{equation*}
+    u = \int C(\xi) \, d\xi
+\end{equation*}
+\begin{equation*}
+    u = C_1(\xi) \, + C_2(\eta)
+\end{equation*}
+\textbf{Ответ:} $u = C_1(y - \cos{x} + 2x) + C_2(y - \cos{x} - 2x)$.
+
+\vspace{100mm}
+\vspace{100mm}
+\vspace{20mm}
+\begin{center}    
+\noindent \textbf{Задание 7}
+\end{center}
+
+Решить задачу Коши:
+
+\begin{equation*}\label{eq:orig}
+    x\,u_{xx} + (x+y)\,u_{xy} + y\,u_{yy}=0,\quad x>0,\;y>0,
+\end{equation*}
+\[
+u \Big|_{y=\frac{1}{x}} = x^3, \quad \quad  u_{y} \Big|_{y=\frac{1}{x}} = -x^4
+\]
+
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\[
+x\left({dy}\right)^2 - 2(x+y)\left({dy}\cdot{dx}\right) + y\left({dx}\right)^2=0.
+\]
+\[
+x\left(\frac{dy}{dx}\right)^2 - 2(x+y)\left(\frac{dy}{dx}\right) + y=0.
+\]
+Подстановка $t = \frac{dy}{dx}$:
+\[
+xt^2 - 2(x+y)t + y=0.
+\]
+Дискриминант $D = (x+y)^2 - 4xy = (x-y)^2> 0$, следовательно, уравнение \textbf{гиперболического типа}.
+
+Решение уравнения:
+\begin{equation*}
+    \begin{cases}
+    t_1 = \frac{y}{x} \\
+    t_2 = 1
+    \end{cases}
+\end{equation*}
+
+Соответствующие характеристические переменные:
+\begin{align*}
+    &t_1 = \frac{y}{x}: \quad y = xC_1 \\
+    &t_2 = 1: \quad y = x + C_2
+\end{align*}
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= \frac{y}{x} , \quad \xi_x = -\frac{y}{x^2},  \quad \xi_y = \frac{1}{x},   \quad  \xi_{xx} = \frac{2y}{x^3},  \quad  \xi_{xy} = -\frac{1}{x^2} \\
+    \eta &= y - x, \quad \eta_x = -1,  \quad \eta_y = 1
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = -\frac{y}{x^2} u_{\xi} - u_{\eta} \\
+0 & u_y =\frac{1}{x} u_{\xi} + u_{\eta} \\
+x & u_{xx} = \frac{y^2}{x^4} u_{\xi\xi} + \frac{2y}{x^2} u_{\xi\eta}  + u_{\eta\eta} + \frac{2y}{x^3} u_{\xi} \\
+(x+y) & u_{xy} = -\frac{y}{x^3} u_{\xi\xi} + u_{\xi\eta} (-\frac{y}{x^2} - \frac{1}{x}) - u_{\eta\eta} - \frac{1}{x^2} u_{\xi} \\
+y & u_{yy} = \frac{1}{x^2} u_{\xi\xi} + \frac{2}{x} u_{\xi\eta}  + u_{\eta\eta} 
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : & \frac{2y}{x^3}x-\frac{1}{x^2}(x+y)= \frac{(y-x)}{x^2}\\
+u_{\eta} & : & 0 \\
+u_{\xi\xi} & : & \frac{y^2}{x^3}-\frac{y(x+y)}{x^3}+\frac{y}{x^2} = 0\\
+u_{\xi\eta} & : &  \frac{2y}{x}+(x+y)(-\frac{y}{x^2} - \frac{1}{x}) + \frac{2y}{x} = -\frac{(y-x)^2}{x^2}\\
+u_{\eta\eta} & : & x - (x+y) + y = 0
+\end{array}
+\)
+\end{flushleft}
+Обратная замена переменных:
+\begin{align*}
+    x &= \frac{\eta}{\xi - 1}, \quad \quad y = \frac{\xi\eta}{\xi - 1}
+\end{align*}
+Имеем:
+\begin{align*}
+    -\frac{(y-x)^2}{x^2}u_{\xi\eta} + \frac{(y-x)}{x^2}u_{\xi} &= 0 \\
+    u_{\xi\eta} - \frac{1}{y - x}u_{\xi} &= 0 \\
+    u_{\xi\eta} - \frac{1}{\eta}u_{\xi} &= 0
+\end{align*}
+Замена $u_{\xi}=v$:
+\begin{equation*}
+    \frac{dv}{d\eta} =\frac{v}{\eta}
+\end{equation*}
+\begin{equation*}
+    v_{\eta} - \frac{1}{\eta}v = 0
+\end{equation*}
+\begin{equation*}
+\ln v =\ln \eta + C
+\end{equation*}
+\begin{equation*}
+v =\eta \cdot C(\xi)
+\end{equation*}
+Тогда:
+\begin{equation*}
+    u_{\xi} = \eta \cdot C(\xi)
+\end{equation*}
+\begin{equation*}
+    u = \int \eta \cdot C(\xi) d\xi + C(\eta)
+\end{equation*}
+\begin{equation*}
+    u = \eta \cdot C_1(\xi)+ C_2(\eta)
+\end{equation*}
+Обратная замена:
+\begin{equation*}
+    u = (y-x) \cdot C_1(\frac{y}{x})+ C_2(y-x)
+\end{equation*}
+Используя начальные условия, подставим $ y = \frac{1}{x} $ в выражение для $ u(x,y) $:
+\begin{equation*}
+    \left( \frac{1}{x} - x \right) C_1 \left( \frac{1}{x^2} \right) + C_2 \left( \frac{1}{x} - x \right) =x^3
+\end{equation*}
+Обозначим
+\begin{equation*}
+    \xi = y - x = \frac{1 - x^2}{x}, \quad \eta = \frac{y}{x} = \frac{1}{x^2}.
+\end{equation*}
+Тогда уравнение принимает вид:
+\begin{equation*}
+    \xi C_1(\eta) + C_2(\xi) = x^3
+\end{equation*}
+Второе условие даёт производную:
+\begin{equation*}
+     C_1(\eta) + \frac{1 - x^2}{x^2} C_1'(\eta) + C_2'(\xi) = -x^4
+\end{equation*}
+Используем замену переменных $ s = \xi $, $ t = \eta $ и выразим $ x $ через $ t $:
+\begin{equation*}
+    x = \frac{1}{\sqrt{t}}, \quad s = \frac{t - 1}{\sqrt{t}}
+\end{equation*}
+Запишем уравнения в терминах $ t $:
+\begin{align*}
+    C_2(s) + s C_1(t) &= \frac{1}{t^{3/2}},\\
+    C_2'(s) + C_1(t) + (t - 1) C_1'(t) &= -\frac{1}{t^2}
+\end{align*}
+Решим систему уравнений.
+
+1. Выразим $ C_2(s) $:
+   \begin{equation*}
+       C_2(s) = \frac{1}{t^{3/2}} - s C_1(t).
+   \end{equation*}
+   
+2. Подставим это выражение:
+   \begin{equation*}
+       \left( \frac{1}{t^{3/2}} - s C_1(t) \right)' + C_1(t) + (t - 1) C_1'(t) = -\frac{1}{t^2}.
+   \end{equation*}
+   
+   Так как $ s = \frac{t - 1}{\sqrt{t}} $, имеем $ ds/dt = \frac{(t - 1)' \sqrt{t} - (t - 1) (\sqrt{t})'}{t} = \frac{\sqrt{t} - \frac{t - 1}{2 \sqrt{t}}}{t} $, что упрощается до $ ds/dt = \frac{t + 1}{2t \sqrt{t}} $.
+
+3. Производная $ C_2(s) $ будет:
+   \begin{equation*}
+       C_2'(s) = \left( \frac{1}{t^{3/2}} - s C_1(t) \right)' = -\frac{3}{2} t^{-5/2} - \frac{t + 1}{2t \sqrt{t}} C_1(t) - s C_1'(t).
+   \end{equation*}
+   
+   Подставляя это, получаем
+   \begin{equation*}
+       -\frac{3}{2} t^{-5/2} - \frac{t + 1}{2t \sqrt{t}} C_1(t) - s C_1'(t) + C_1(t) + (t - 1) C_1'(t) = -\frac{1}{t^2}.
+   \end{equation*}
+
+4. Переписываем уравнение:
+   \begin{equation*}
+       (t - 1 - s) C_1'(t) + \left(1 - \frac{t + 1}{2t \sqrt{t}} \right) C_1(t) = -\frac{1}{t^2} + \frac{3}{2} t^{-5/2}.
+   \end{equation*}
+   
+   Так как $ s = \frac{t - 1}{\sqrt{t}} $, имеем $ t - 1 - s = \frac{(t - 1)(\sqrt{t} - 1)}{\sqrt{t}} $.
+   
+5. Разделяем переменные и интегрируем уравнение относительно $ C_1(t) $:
+   \begin{equation*}
+       C_1'(t) = \frac{1}{t^2} - \frac{1}{(t - 1)^2}.
+   \end{equation*}
+   
+   Интегрируя, находим
+   \begin{equation*}
+       C_1(t) = \frac{1}{t - 1} - \frac{1}{t}.
+   \end{equation*}
+   
+6. Подставляем $ C_1(t) $ в уравнение для $ C_2(s) $ и находим $ C_2(s) = 0 $.
+
+Подставляя найденные функции, получаем решение:
+\begin{equation*}
+    u(x,y) = \frac{x^2}{y}.
+\end{equation*}
+\textbf{Ответ:} $u =\frac{x^2}{y}$.
+
+
+\vspace{14mm}
+\begin{center}    
+    \textbf{Задание 8. №5}
+\end{center}
+
+Решить задачу Гурса:
+
+\begin{equation*}
+    u_{xx} + 6 u_{xy} + 5u_{yy} = 0, \quad y<5x, \quad  x>0
+\end{equation*}
+\[
+u \Big|_{y=0} = \cos x, \quad \quad  u \Big|_{y=5x} = \cos 2x
+\]
+\textbf{Решение:}
+
+Характеристическое уравнение:
+\begin{equation*}
+     (dy)^2 + 6 (dx \cdot dy) + 5(dx)^2=0
+\end{equation*}
+\begin{equation*}
+\left( \frac{dy}{dx} \right)^2 + 6 \left( \frac{dy}{dx} \right) + 5=0
+\end{equation*}
+
+Подстановка $t = \frac{dy}{dx}$:
+\begin{equation*}
+    t^2 + 6 t + 5=0
+\end{equation*}
+
+\begin{equation*}
+    D = 36 - 20 = 16 \Rightarrow \text{уравнение гиперболическое}
+\end{equation*}
+
+Корни уравнения:
+\begin{equation*}
+    \begin{cases}
+    t_1 = 1 \\
+    t_2 = \frac{1}{3}
+    \end{cases}
+\end{equation*}
+
+Рассмотрим уравнения характеристик:
+\[
+\begin{cases}
+    dy = dx, \\
+    dy = 5dx.
+\end{cases}
+\]
+
+Интегрируя, получаем:
+\[
+\begin{cases}
+    y = x + C_1, \\
+    y = 2x + C_2.
+\end{cases}
+\]
+
+Выбираем новые переменные:
+\begin{align*}
+    \xi &= y - 5x, \quad \xi_x = -5,  \quad \quad \xi_y = 1 \\
+    \eta &= y - x, \quad \eta_x =- 1,  \quad \quad \eta_y = 1
+\end{align*}
+
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+0 & u_x = -5u_{\eta} - u_{\xi} \\
+0 & u_y = u_{\eta} + u_{\xi} \\
+1 & u_{xx} = 25 u_{\xi\xi} + 10u_{\xi\eta} + u_{\eta\eta}\\
+6 & u_{xy} = -5 u_{\xi\xi} - 4u_{\xi\eta} - u_{\eta\eta}\\
+5 & u_{xy} = u_{\xi\xi} + 2 u_{\xi\eta}+u_{\eta\eta}
+\end{array}
+\)
+\end{flushleft}
+
+Пересчёт коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{\xi} & : & 0 \\
+u_{\eta} & : & 0 \\
+u_{\xi\xi} & : & 25 - 30 + 5 = 0\\
+u_{\xi\eta} & : & 10 -24 + 10 = -4\\
+u_{\eta\eta} & : &  1 - 6 + 5 = 0
+\end{array}
+\)
+\end{flushleft}
+
+Подставляя, получаем:
+\begin{equation*}
+    -4u_{\xi\eta} = 0
+\end{equation*}
+\begin{equation*}
+    u_{\xi\eta} = 0
+\end{equation*}
+\begin{equation*}
+    u_{\xi} = C(\xi)
+\end{equation*}
+\begin{equation*}
+    u = \int C(\xi) \, d\xi
+\end{equation*}
+\begin{equation*}
+    u = C_1(\xi) \, + C_2(\eta)
+\end{equation*}
+\begin{equation*}
+    u = C_1(y-5x) \, + C_2(y-x)
+\end{equation*}
+
+Используя начальные условия:
+\begin{align*}
+    &C_1(-5x) \, + C_2(-x) = \cos x \\
+    &C_1(0) \, + C_2(4x) = \cos 2x
+\end{align*}
+
+Выразим $C_1$ и $C_2$:
+\begin{align*}
+    &C_1(z)=\cos (-\frac{z}{5}) - C_2(\frac{z}{5})\\
+    &C_2(z) = \cos (\frac{z}{2}) + C_1(0)
+\end{align*}
+
+Тогда имеем:
+\begin{align*}
+    u &=\cos (\frac{5x-y}{5}) - C_2(\frac{y-5x}{5}) + \cos (\frac{y-x}{2}) - C_1(0)\\
+    u &=\cos (\frac{5x-y}{5}) - \cos (\frac{y-5x}{10}) +C_1(0) + \cos (\frac{y-x}{2}) - C_1(0)\\
+    u &=\cos (\frac{5x-y}{5}) - \cos (\frac{y-5x}{10}) + \cos (\frac{y-x}{2}) \\
+\end{align*}
+
+\textbf{Ответ:} $u =\cos (\frac{5x-y}{5}) - \cos (\frac{y-5x}{10}) + \cos (\frac{y-x}{2})$.
+
+\vspace{90mm}
+\begin{center}    
+    \textbf{Задание 9. №2.5}
+\end{center}
+
+Привести к каноническому виду и упростить уравнение:
+
+\begin{equation*}
+    u_{xx} + u_{yy} + u_{zz} + 6u_{xy} + 2u_{xz} + 2u_{yz} + 2u_{x} + 2u_{y} + 2u_{z} + 4u = 0
+\end{equation*}
+\textbf{Решение:}
+
+\[
+\Phi (t) = t_1^2 + t_2^2 + t_3^2 + 6t_1t_2 + 2t_1t_3 + 2t_2t_3 =
+\]
+\[
+= (t_1^2 + 2t_1(3t_2 + t_3) + (3t_2 + t_3)^2) - (3t_2 + t_3)^2 + t_2^2+ t_3^2+ 6t_1t_2 + 2t_2t_3=
+\]
+\[
+= (t_1 + 3t_2 + t_3)^2 - 9t_2^2 - 6t_2t_3 - t_3^2 + t_2^2 +t_3^2+ 2t_2t_3=
+\]
+\[
+= (t_1 + 3t_2 + t_3)^2 - 8t_2^2 -4t_2t_3=
+\]
+\[
+= (t_1 + 3t_2 + t_3)^2 - (8t_2^2 +2(2\sqrt{2}t_2)(\frac{t_3}{\sqrt{2}})+ \frac{t_3^2}{2})+\frac{t_3^2}{2}=
+\]
+\[
+= (t_1 + 3t_2 + t_3)^2 - (\sqrt{8}t_2 + \frac{t_3}{\sqrt{2}})^2+(\frac{t_3}{\sqrt{2}})^2=\tau_1^2 - \tau_2^2 + \tau_3^2
+\]
+Замена $\tau_1, \,\tau_2, \,\tau_3$:
+\begin{align*}
+   &\tau_1 = t_1 + 3t_2 + t_3\\
+   &\tau_2 = \sqrt{8}t_2 + \frac{t_3}{2} \\
+   &\tau_3 =\frac{t_3}{2}
+\end{align*}
+Обратная замена $t_1, \,t_2, \,t_3$:
+\begin{align*}
+   &t_1 = \tau_1 - \frac{3}{\sqrt{8}}\tau_2 -\frac{1}{\sqrt{8}} \tau_3\\
+   &t_2 = \frac{\tau_2-\tau_3}{2\sqrt{2}} \\
+   &t_3 =\sqrt{2}\tau_3
+\end{align*}
+Матрица преобразования:
+\[
+B = 
+\begin{pmatrix}
+1 & -\frac{3}{\sqrt{8}} & -\frac{1}{\sqrt{8}} \\
+0 & \frac{1}{2\sqrt{2}} & -\frac{1}{2\sqrt{2}} \\
+0 & 0 & \sqrt{2}
+\end{pmatrix}
+\]
+
+\[
+B^{T} =
+\begin{pmatrix}
+1 & 0 & 0 \\
+-\frac{3}{\sqrt{8}} & \frac{1}{2\sqrt{2}} & 0 \\
+-\frac{1}{\sqrt{8}} & -\frac{1}{2\sqrt{2}} & \sqrt{2}
+\end{pmatrix}
+\]
+Замена переменных:
+\[
+\begin{pmatrix}
+y_1 \\
+y_2 \\
+y_3
+\end{pmatrix}
+=
+B^{T}
+\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}
+\Rightarrow
+\begin{pmatrix}
+y_1 \\
+y_2 \\
+y_3
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0 & 0 \\
+-\frac{3}{\sqrt{8}} & \frac{1}{2\sqrt{2}} & 0 \\
+-\frac{1}{\sqrt{8}} & -\frac{1}{2\sqrt{2}} & \sqrt{2}
+\end{pmatrix}
+\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}
+\]
+Тогда $y_1, y_2, y_3$:
+\begin{align*}
+   &y_1 = x\\
+   &y_2 = -\frac{3}{\sqrt{8}}x + \frac{1}{2\sqrt{2}}y\\
+   &y_3 =-\frac{1}{\sqrt{8}}x-\frac{1}{2\sqrt{2}}y+ \sqrt{2}z
+\end{align*}
+Выразим $x, y, z$:
+\begin{align*}
+   &x = y_1\\
+   &y = 2\sqrt{2}(y_2 +\frac{3}{\sqrt{8}}y_1)\\
+   &z =\frac{1}{\sqrt{2}}(y_3+y_2+\sqrt{2}y_1)
+\end{align*}
+Преобразование производных:
+\begin{flushleft}
+\(
+\begin{array}{r|l}
+2 & u_x = u_{y_1} - \frac{3}{\sqrt{8}}u_{y_2} - \frac{1}{\sqrt{8}}u_{y_3} \\
+2 & u_y = \frac{1}{2\sqrt{2}}u_{y_2} - \frac{1}{2\sqrt{2}} u_{y_3}  \\
+2 & u_z = \sqrt{2}u_{y_3}  \\
+1 & u_{xx} = u_{y_1y_1} - \frac{3}{\sqrt{8}}u_{y_1y_2} - \frac{1}{\sqrt{8}}u_{y_1y_3} - \frac{3}{\sqrt{8}}u_{y_2y_1} +\frac{9}{8} u_{y_2y_2} + \frac{3}{8}u_{y_2y_3} -\frac{1}{\sqrt{8}} u_{y_3y_1} + \frac{3}{8}u_{y_3y_2} + \\& + \frac{1}{8} u_{y_3y_3} = u_{y_1y_1} +\frac{9}{8} u_{y_2y_2} +\frac{1}{8} u_{y_3y_3}  - \frac{6}{\sqrt{8}}u_{y_1y_2} - \frac{2}{\sqrt{8}}u_{y_1y_3} + \frac{3}{4}u_{y_2y_3} \\
+1 & u_{yy} = \frac{1}{8}u_{y_2y_2} - \frac{1}{8}u_{y_2y_3} - \frac{1}{8}u_{y_2y_3} + \frac{1}{8} u_{y_3y_3} = \frac{1}{8}u_{y_2y_2} + \frac{1}{8} u_{y_3y_3} - \frac{1}{4}u_{y_2y_3}  \\
+1 & u_{zz} = 2u_{y_3y_3} \\
+6 & u_{xy} = \frac{1}{2\sqrt{2}}u_{y_2y_1} - \frac{3}{8} u_{y_2y_2} - \frac{1}{8}u_{y_2y_3} - \frac{1}{2\sqrt{2}}u_{y_3y_1} + \frac{3}{8}u_{y_2y_3} + \frac{1}{8} u_{y_3y_3} =\\&= - \frac{3}{8} u_{y_2y_2} + \frac{1}{8} u_{y_3y_3} + \frac{1}{2\sqrt{2}}u_{y_1y_2}  - \frac{1}{2\sqrt{2}}u_{y_1y_3} + \frac{1}{4}u_{y_2y_3} \\
+2 & u_{yz} = \sqrt{2} \cdot \frac{1}{2\sqrt{2}} u_{y_3y_2} - \sqrt{2} \cdot \frac{1}{2\sqrt{2}} u_{y_3y_3} = \frac{1}{2} u_{y_3y_2} - \frac{1}{2} u_{y_3y_3}  \\
+2 & u_{xz} = \sqrt{2} u_{y_3y_1} - \frac{3}{2}u_{y_3y_2} - \frac{1}{2}u_{y_3y_3} =  - \frac{1}{2}u_{y_3y_3} + \sqrt{2} u_{y_1y_3} - \frac{3}{2}u_{y_2y_3} 
+\end{array}
+\)
+\end{flushleft}
+
+Пересчет коэффициентов:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+u_{y_1} & : & 2 \\
+u_{y_2} & : & -\frac{3}{\sqrt{2}} + \frac{1}{\sqrt{2}} = -\sqrt{2} \\
+u_{y_3} & : & -\frac{1}{\sqrt{2}} - \frac{1}{\sqrt{2}} + 2\sqrt{2}= \sqrt{2}\\
+u_{y_1y_1} & : & 1 \\
+u_{y_2y_2} & : & \frac{9}{8} + \frac{1}{8} - \frac{9}{4}= -1 \\
+u_{y_3y_3} & : & \frac{1}{8} + \frac{1}{8} + 2 + \frac{3}{4} - 1 -1 = 1\\
+u_{y_1y_2} & : & -\frac{6}{\sqrt{8}} +\frac{6}{\sqrt{8}} = 0\\
+u_{y_1y_3} & : & -\frac{2}{\sqrt{8}} -\frac{6}{\sqrt{8}} + 2\sqrt{2} = 0 \\
+u_{y_2y_3} & : & \frac{3}{4} - \frac{1}{4} + \frac{6}{4} + 1 - 3 = 0 
+\end{array}
+\)
+\end{flushleft}
+
+Подставляя, получаем:
+\begin{equation*}
+    u_{y_1y_1} - u_{y_2y_2} + u_{y_3y_3} + 2u_{y_1} - \sqrt{2} u_{y_2} + \sqrt{2}u_{y_3} + 4u = 0
+\end{equation*}
+
+Введем функцию $u =e^{\alpha_1y_1 + \alpha_2y_2 + \alpha_3y_3}v(y_1,y_2,y_3)$ и обозначим $\alpha_1y_1 + \alpha_2y_2 + \alpha_3y_3 = -$, \\ $v(y_1,y_2,y_3) = v$,  тогда $u =e^{-}v$. Посчитаем производные:
+\begin{flushleft}
+\(
+\begin{array}{r@{}l}
+    u_{y_1} &{}= (\alpha_1v + v_{}y_1) e^{-} \\
+    u_{y_2} &{}= (\alpha_2v + v_{}y_2) e^{-} \\
+    u_{y_3} &{}= (\alpha_2v + v_{}y_2) e^{-} \\
+    u_{y_1y_1} &{}= (\alpha_1^2v + 2\alpha_1v_{y_1} + v_{y_1y_1}) e^{-} \\
+    u_{y_2y_2} &{}= (\alpha_2^2v + 2\alpha_2v_{y_2} + v_{y_2y_2}) e^{-}  \\
+    u_{y_3y_3} &{}= (\alpha_3^2v + 2\alpha_3v_{y_3} + v_{y_3y_3}) e^{-} 
+\end{array}
+\)
+\end{flushleft}
+Подставим в уравнение:
+\begin{align*}
+    &\left( \alpha_1^2 v + 2\alpha_1 v_{y_1} + v_{y1y1}  
+    - \alpha_2^2 v - 2\alpha_2 v_{y_2} - v_{y_2 y_2} \right. \\ 
+    &\quad + \alpha_3^2 v + 2 \alpha_3 v_{y_3} + v_{y_3 y_3} 
+    + 2 \alpha_1 v + 2 v_{y_1} \\ 
+    &\quad \left. - \sqrt{2} \alpha_2 v - \sqrt{2} v_{y_2} 
+    + \sqrt{2} \alpha_3 v + 2 v_{y_3} + 4 v \right) e^{-t} = 0.
+\end{align*}
+Коэффициенты при $v, v_{y_1}, v_{y_2}, v_{y_3}, v_{y_1y_1}, v_{y_2y_2}, v_{y_3y_3},$:
+\begin{flushleft}
+\(
+\begin{array}{rcl}
+v & : & \alpha_1^2 - \alpha_2^2 + \alpha_3^2 - 2\alpha_1 - \sqrt{2}\alpha_2 + \sqrt{2} \alpha_3 + 4 \\
+v_{y_1} & : & 2\alpha_1 + 2\\
+v_{y_2} & : & -2\alpha_2 + \sqrt{2}\\
+v_{y_3} & : & 2\alpha_3 + \sqrt{2} \\
+v_{y_1y_1} & : & 1 \\
+v_{y_2y_2} & : & -1\\
+v_{y_3y_3} & : & -1
+\end{array}
+\)
+\end{flushleft}
+Возьмём $\alpha_1=-1, \alpha_2=-\frac{1}{\sqrt{2}}, \alpha_3=-\frac{1}{\sqrt{2}}$, тогда уравнение примет вид:
+\begin{equation*}
+    3v + v_{y_1y_1} - v_{y_2y_2} + v_{y_3y_3}= 0
+\end{equation*}
+
+\textbf{Ответ:} $v_{y_1y_1} - v_{y_2y_2} + v_{y_3y_3} + 3v= 0$.
+
+\end{document}
