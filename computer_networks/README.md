@@ -10,6 +10,7 @@
 - [lab6](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab6) - [Конфигурирование DHCP-сервера (_Configuring the DHCP server_)](https://temablag.github.io/BSU/computer_networks/lab6/lab6.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab6/lab6_theory.pdf)
 - [lab7](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab7) - [Начальная настройка маршрутизатора Cisco с использованием IOS CLI (_Initial configuration of a Cisco router using the IOS CLI_)](https://temablag.github.io/BSU/computer_networks/lab7/lab7.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab7/lab7_theory.pdf)
 - [lab8](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab8) - [Внедрение адресации VLSM. Статическая маршрутизация (_Implementation of VLSM addressing. Static routing_)](https://temablag.github.io/BSU/computer_networks/lab8/lab8.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab8/lab8_theory.pdf)
+- [lab9](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab9) - [Конфигурация RIPv2 и его проверка (_RIPv2 configuration and verification_)](https://temablag.github.io/BSU/computer_networks/lab9/lab9.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab9/lab9_theory.pdf)
 
 Курсы на платформе Stepik:
 - [Основы компьютерных сетей](https://stepik.org/course/208904/syllabus?search=6506192455)
