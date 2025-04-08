@@ -97,7 +97,7 @@
 - [:abacus: Numerical methods (_Численные методы_)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods)		 
 - [Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)](https://github.com/TemaBlag/BSU/tree/main/partial_diff_equations)	 
 - [Graph theory (_Теория графов_)](https://github.com/TemaBlag/BSU/tree/main/graph_theory)	
-- Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)	 
+- [Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)](https://github.com/TemaBlag/BSU/tree/main/pedagogy)	 
 - [🖼️ Fundamentals of digital image processing (_Основы цифровой обработки изображений_)](https://github.com/TemaBlag/BSU/tree/main/image_processing)
 - [Probability theory and mathematical statistics (_Теория вероятностей и математическая статистика_)](https://github.com/TemaBlag/BSU/tree/main/prob_and_math_stat)
 
