@@ -2,6 +2,7 @@
 Численные методы. Семестр 6
 
 - [theory](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/theory) - Теория
+- [test](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/test) - Контрольная работа
 ___
 Лабораторные работы:
 
