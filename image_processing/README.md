@@ -2,6 +2,9 @@
 
 Основы цифровой обработки изображений
 
+Доклад на тему: [Adversarial examples](https://temablag.github.io/BSU/image_processing/adversarial_examples.pdf)
+
+Лабраторные работы:
 
 - [lab1](https://github.com/TemaBlag/BSU/tree/main/image_processing/lab1) - Построение морфологического скелета (_Construction of the morphological skeleton_)
 - [lab2](https://github.com/TemaBlag/BSU/tree/main/image_processing/lab2) - Построение скелета бинарного изображения (_Building a binary image skeleton_)
