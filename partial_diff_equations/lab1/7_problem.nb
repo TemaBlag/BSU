@@ -1,0 +1,111 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Calculate"," ","the"," ","Cauchy"," ","problem",StyleBox[
+RowBox[{":"," "," "}]],Cell[
+BoxData[TemplateBox[Association["boxes" -> FormBox[RowBox[
+{StyleBox["x","TI"]," ",SubscriptBox[StyleBox["u","TI"],RowBox[{StyleBox["x","TI"],StyleBox[
+"x","TI"]}]],"+",RowBox[{"(",RowBox[{StyleBox["x","TI"],"+",StyleBox["y","TI"]}],")"}]," ",SubscriptBox[
+StyleBox["u","TI"],RowBox[{StyleBox["x","TI"],StyleBox["y","TI"]}]],"+",StyleBox[
+"y","TI"]," ",SubscriptBox[StyleBox["u","TI"],RowBox[{StyleBox["y","TI"],StyleBox[
+"y","TI"]}]],"\[LongEqual]","0",",    ",StyleBox["x","TI"],">","0",",  ",StyleBox[
+"y","TI"],">","0"}],TraditionalForm],"errors" -> {},"input" -> "\\begin{equation*}\\label{eq:orig}\n    x\\,u_{xx} + (x+y)\\,u_{xy} + y\\,u_{yy}=0,\\quad  \\quad x>0,  \\quad  y>0\n\\end{equation*}",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]]," ","\n",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "}]],Cell[
+BoxData[
+TemplateBox[Association["boxes" -> FormBox[RowBox[{StyleBox["u","TI"],SubscriptBox[
+"|",RowBox[{StyleBox["y","TI"],"\[LongEqual]",FractionBox["1",StyleBox["x","TI"]]}]],"\[LongEqual]",SuperscriptBox[
+StyleBox["x","TI"],"3"],",    ",SubscriptBox[StyleBox["u","TI"],StyleBox["y","TI"]],SubscriptBox[
+"|",RowBox[{StyleBox["y","TI"],"\[LongEqual]",FractionBox["1",StyleBox["x","TI"]]}]],"\[LongEqual]","-",SuperscriptBox[
+StyleBox["x","TI"],"4"]}],TraditionalForm],"errors" -> {},"input" -> "u \\Big|_{y=\\frac{1}{x}} = x^3, \\quad \\quad  u_{y} \\Big|_{y=\\frac{1}{x}} = -x^4",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[RowBox[{" "," "}]]}],"Title",
+ExpressionUUID -> "d9f5961d-1abc-41eb-9295-509a5ee8d264"],Cell[
+CellGroupData[{Cell[
+
+"\<Solution\>","Chapter",ExpressionUUID -> "a61f4d61-b93d-477b-b4fa-070e5202a552"],Cell[
+BoxData[
+RowBox[{RowBox[{"u","[",RowBox[{"x_",","," ","y_"}],"]"}]," ",":="," ",RowBox[{RowBox[
+{"x","^","2"}]," ","/"," ","y"}]}]],"Code",CellLabel -> "In[3]:= ",ExpressionUUID -> "d3a63587-7627-41fc-9690-c4eea3109733"]},
+Open],ExpressionUUID -> "7a302883-044d-4826-8fed-186b22ab1258"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Partial"," ","derivatives"}],"Chapter",ExpressionUUID -> "d453b45a-aba1-46b2-9093-b612b024245f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"uxx"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[
+{"x",","," ","y"}],"]"}],","," ",RowBox[{"{",RowBox[{"x",","," ","2"}],"}"}]}],"]"}]}],"\n",RowBox[
+{"uxy"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[{"x",","," ","y"}],"]"}],","," ","x",","," ","y"}],"]"}]}],"\n",RowBox[
+{"uyy"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[{"x",","," ","y"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"y",","," ","2"}],"}"}]}],"]"}]}]}],"Code",CellLabel -> "In[4]:= ",ExpressionUUID -> "2e3626ce-053a-4d6a-ba3c-1d606a3e9b00"],Cell[
+BoxData[
+FractionBox["2","y"],StandardForm],"Output",CellLabel -> "Out[4]= ",ExpressionUUID -> "e04b4f0c-57e6-4fb4-847f-be573e212097"],Cell[
+BoxData[
+RowBox[{"-",FractionBox[RowBox[{"2"," ","x"}],SuperscriptBox["y","2"]]}],StandardForm],
+"Output",CellLabel -> "Out[5]= ",ExpressionUUID -> "eed6ff2f-284d-4d48-8f63-6cdc7a602995"],Cell[
+BoxData[
+FractionBox[RowBox[{"2"," ",SuperscriptBox["x","2"]}],SuperscriptBox["y","3"]],StandardForm],
+"Output",CellLabel -> "Out[6]= ",ExpressionUUID -> "a513f5df-825f-4581-b655-1c2720574a90"]},
+Open],ExpressionUUID -> "33f0b85a-8548-4482-ae24-59332a092050"]},Open],ExpressionUUID -> "5390cc71-67d2-4528-a33a-1ac5dd43fc67"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Substitution"," ","into"," ","the"," ","equation"}],"Chapter",ExpressionUUID -> "03fa6d9c-ba20-43f1-8132-64d7164d0b9d"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "0101b569-8c19-4835-bdb2-3a72725a7d14"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"expr"," ","="," ",RowBox[{RowBox[{"x","*","uxx"}]," ","+"," ",RowBox[
+{RowBox[{"(",RowBox[{"x"," ","+"," ","y"}],")"}],"*","uxy"}]," ","+"," ",RowBox[{"y","*","uyy"}]}]}]],
+"Code",CellLabel -> "In[7]:= ",ExpressionUUID -> "25f76bd3-6832-46c1-945a-c9d92d73d310"],Cell[
+BoxData[
+RowBox[{FractionBox[RowBox[{"2"," ",SuperscriptBox["x","2"]}],SuperscriptBox["y",
+"2"]],"+",FractionBox[RowBox[{"2"," ","x"}],"y"],"-",FractionBox[RowBox[{"2"," ","x"," ",RowBox[
+{"(",RowBox[{"x","+","y"}],")"}]}],SuperscriptBox["y","2"]]}],StandardForm],"Output",
+CellLabel -> "Out[7]= ",ExpressionUUID -> "45892e68-0dde-4a14-85d7-7e32e4b11e70"]},
+Open],ExpressionUUID -> "80cfd64f-6c02-46b5-977d-7322dc96f830"]},Open],ExpressionUUID -> "be0f41a1-64c5-486d-9f7f-e228b1c0c776"],Cell[
+CellGroupData[
+{Cell[
+"\<Simplify\>","Chapter",ExpressionUUID -> "8ea8ed4a-5105-4b43-b48d-9118ffa160e0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FullSimplify","[","expr","]"}]],"Code",CellLabel -> "In[8]:= ",
+ExpressionUUID -> "f4a125c0-d1fa-4247-95fd-4c8d5533ad20"],Cell[
+BoxData["0",StandardForm],
+"Output",CellLabel -> "Out[8]= ",ExpressionUUID -> "3d684783-24cb-4805-9868-4254e3f1d984"]},
+Open],ExpressionUUID -> "06b8c89c-7a25-4ccf-8ce0-7b586d90e6d5"]},Open],ExpressionUUID -> "d55d190c-e07f-4c41-8753-8c9cb10da3c0"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Checking"," ","boundary"," ","conditions"}],"Chapter",ExpressionUUID -> "3ec747c7-cb5d-456f-bc88-5e596820ca08"],Cell[
+TextData[
+{"First"," ","boundary"," ","condition",StyleBox[RowBox[{" "," "}]],Cell[
+BoxData[
+TemplateBox[Association["boxes" -> FormBox[RowBox[{StyleBox["u","TI"],SubscriptBox[
+"|",RowBox[{StyleBox["y","TI"],"\[LongEqual]",FractionBox["1",StyleBox["x","TI"]]}]],"\[LongEqual]",SuperscriptBox[
+StyleBox["x","TI"],"3"]}],TraditionalForm],"errors" -> {},"input" -> "u \\Big|_{y=\\frac{1}{x}} = x^3",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[RowBox[{" "," "}]]}],"Subchapter",
+ExpressionUUID -> "443ad09c-1716-4d20-88bc-c62542748716"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"FullSimplify","[",RowBox[{"u","[",RowBox[{"x",","," ",RowBox[{"1","/","x"}]}],"]"}],"]"}]],
+"Code",CellLabel -> "In[9]:= ",ExpressionUUID -> "13756e94-5db9-4b7d-8b93-b4fd111d7665"],Cell[
+BoxData[
+SuperscriptBox["x","3"],StandardForm],"Output",CellLabel -> "Out[9]= ",ExpressionUUID -> "5841b05a-5db2-4417-b7e2-9402d97fe910"]},
+Open],ExpressionUUID -> "a28f3be0-0809-4917-937b-a12d8dbb1fb8"],Cell[
+TextData[{"Second"," ","boundary"," ","condition",StyleBox[
+RowBox[{" "," "}]],Cell[
+BoxData[TemplateBox[Association["boxes" -> FormBox[RowBox[
+{SubscriptBox[StyleBox["u","TI"],StyleBox["y","TI"]],SubscriptBox["|",RowBox[{StyleBox[
+"y","TI"],"\[LongEqual]",FractionBox["1",StyleBox["x","TI"]]}]],"\[LongEqual]","-",SuperscriptBox[
+StyleBox["x","TI"],"4"]}],TraditionalForm],"errors" -> {},"input" -> "u_{y} \\Big|_{y=\\frac{1}{x}} = -x^4",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[RowBox[{" "," "}]]}],"Subchapter",
+ExpressionUUID -> "5889976c-89f3-4ed9-ac2d-289debb5e61e"],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{"uy"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[{"x",","," ","y"}],"]"}],","," ","y"}],"]"}]}],"\n",RowBox[
+{"FullSimplify","[",RowBox[{"uy"," ","/."," ",RowBox[{"y"," ","\[Rule]"," ",RowBox[
+{"1","/","x"}]}]}],"]"}]}],"Code",CellLabel -> "In[10]:= ",ExpressionUUID -> "d1995b2a-7b42-490d-82e1-07f8347afa52"],Cell[
+BoxData[
+RowBox[{"-",FractionBox[SuperscriptBox["x","2"],SuperscriptBox["y","2"]]}],StandardForm],
+"Output",CellLabel -> "Out[10]= ",ExpressionUUID -> "c594fc93-3ba0-4b97-bd05-e755454c9d3e"],Cell[
+BoxData[
+RowBox[{"-",SuperscriptBox["x","4"]}],StandardForm],"Output",CellLabel -> "Out[11]= ",
+ExpressionUUID -> "f14ecb85-ccaa-4795-9b9b-196d4506edb4"]},Open],ExpressionUUID -> "bf08a316-aad7-4cde-b70d-f66c1c0c2a0d"]},
+Open],ExpressionUUID -> "2d346f9d-a2ea-4434-8882-cf20aae242db"]},Open],ExpressionUUID -> "f8e7a7bc-0eee-413a-8950-d4fbeafaf478"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "14.2 for Wolfram Cloud 1.71 (March 24, 2025)"]

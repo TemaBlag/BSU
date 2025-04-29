@@ -1,0 +1,137 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Calculate"," ","the"," ","Gursa's"," ","task",StyleBox[
+RowBox[{":"," "," "}]],Cell[
+BoxData[TemplateBox[Association["boxes" -> FormBox[RowBox[
+{SubscriptBox[StyleBox["u","TI"],RowBox[{StyleBox["x","TI"],StyleBox["x","TI"]}]],"+","6",SubscriptBox[
+StyleBox["u","TI"],RowBox[{StyleBox["x","TI"],StyleBox["y","TI"]}]],"+","5",SubscriptBox[
+StyleBox["u","TI"],RowBox[{StyleBox["y","TI"],StyleBox["y","TI"]}]],"\[LongEqual]","0",",    ",StyleBox[
+"y","TI"],"<","5",StyleBox["x","TI"],",    ",StyleBox["x","TI"],">","0"}],TraditionalForm],
+"errors" -> {},"input" -> "u_{xx} + 6 u_{xy} + 5u_{yy} = 0, \\quad  \\quad y<5 x, \\quad  \\quad  x>0",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]]," ","\n",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "}]],Cell[
+BoxData[
+TemplateBox[Association["boxes" -> FormBox[RowBox[{StyleBox["u","TI"],SubscriptBox[
+"|",RowBox[{StyleBox["y","TI"],"\[LongEqual]","0"}]],"\[LongEqual]","cos",StyleBox[
+"x","TI"],",    ",StyleBox["u","TI"],SubscriptBox["|",RowBox[{StyleBox["y","TI"],"\[LongEqual]","5",StyleBox[
+"x","TI"]}]],"\[LongEqual]","cos","2",StyleBox["x","TI"]}],TraditionalForm],"errors" -> {},
+"input" -> "u \\Big|_{y=0} = \\cos x, \\quad \\quad  u \\Big|_{y=5x} = \\cos 2x",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[RowBox[{" "," "}]]}],"Title",
+ExpressionUUID -> "d9f5961d-1abc-41eb-9295-509a5ee8d264"],Cell[
+CellGroupData[{Cell[
+
+"\<Solution\>","Chapter",ExpressionUUID -> "a61f4d61-b93d-477b-b4fa-070e5202a552"],Cell[
+BoxData[
+RowBox[{RowBox[{"u","[",RowBox[{"x_",","," ","y_"}],"]"}]," ",":="," ",RowBox[{RowBox[
+{"Cos","[",RowBox[{RowBox[{"(",RowBox[{RowBox[{"5"," ","x"}]," ","-"," ","y"}],")"}],"/","5"}],"]"}]," ","-"," ",RowBox[
+{"Cos","[",RowBox[{RowBox[{"(",RowBox[{"y"," ","-"," ",RowBox[{"5"," ","x"}]}],")"}],"/","10"}],"]"}]," ","+"," ",RowBox[
+{"Cos","[",RowBox[{RowBox[{"(",RowBox[{"y"," ","-"," ","x"}],")"}],"/","2"}],"]"}]}]}]],
+"Code",CellLabel -> "In[23]:= ",ExpressionUUID -> "d3a63587-7627-41fc-9690-c4eea3109733"]},
+Open],ExpressionUUID -> "7a302883-044d-4826-8fed-186b22ab1258"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Partial"," ","derivatives"}],"Chapter",ExpressionUUID -> "d453b45a-aba1-46b2-9093-b612b024245f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[{RowBox[{"uxx"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[
+{"x",","," ","y"}],"]"}],","," ",RowBox[{"{",RowBox[{"x",","," ","2"}],"}"}]}],"]"}]}],"\n",RowBox[
+{"uxy"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[{"x",","," ","y"}],"]"}],","," ","x",","," ","y"}],"]"}]}],"\n",RowBox[
+{"uyy"," ","="," ",RowBox[{"D","[",RowBox[{RowBox[{"u","[",RowBox[{"x",","," ","y"}],"]"}],","," ",RowBox[
+{"{",RowBox[{"y",","," ","2"}],"}"}]}],"]"}]}]}],"Code",CellLabel -> "In[24]:= ",
+ExpressionUUID -> "2e3626ce-053a-4d6a-ba3c-1d606a3e9b00"],Cell[
+BoxData[RowBox[{RowBox[
+{"-",RowBox[{"Cos","[",RowBox[{FractionBox["1","5"]," ",RowBox[{"(",RowBox[{RowBox[
+{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"+",RowBox[{FractionBox["1","4"]," ",RowBox[
+{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"-",RowBox[
+{FractionBox["1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],StandardForm],"Output",
+CellLabel -> "Out[24]= ",ExpressionUUID -> "f209b800-28d5-4dd0-a180-ae923ab47bf3"],Cell[
+BoxData[
+RowBox[{RowBox[{FractionBox["1","5"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1",
+"5"]," ",RowBox[{"(",RowBox[{RowBox[{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"-",RowBox[
+{FractionBox["1","20"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[
+{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"+",RowBox[
+{FractionBox["1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],StandardForm],"Output",
+CellLabel -> "Out[25]= ",ExpressionUUID -> "27a511e1-db10-40a0-bc5d-f9391a5a9f6c"],Cell[
+BoxData[
+RowBox[{RowBox[{RowBox[{"-",FractionBox["1","25"]}]," ",RowBox[{"Cos","[",RowBox[
+{FractionBox["1","5"]," ",RowBox[{"(",RowBox[{RowBox[{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"+",RowBox[
+{FractionBox["1","100"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[
+{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"-",RowBox[
+{FractionBox["1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],StandardForm],"Output",
+CellLabel -> "Out[26]= ",ExpressionUUID -> "d5122d43-ed72-42d1-86c0-41e0cae3017e"]},
+Open],ExpressionUUID -> "e628640b-b6f0-49b4-87ec-0b27ce3b8b36"]},Open],ExpressionUUID -> "5390cc71-67d2-4528-a33a-1ac5dd43fc67"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Substitution"," ","into"," ","the"," ","equation"}],"Chapter",ExpressionUUID -> "03fa6d9c-ba20-43f1-8132-64d7164d0b9d"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "0101b569-8c19-4835-bdb2-3a72725a7d14"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"expr"," ","="," ",RowBox[{"uxx"," ","+"," ",RowBox[{"6","*","uxy"}]," ","+"," ",RowBox[
+{"5","uyy"}]}]}]],"Code",CellLabel -> "In[27]:= ",ExpressionUUID -> "25f76bd3-6832-46c1-945a-c9d92d73d310"],Cell[
+BoxData[
+RowBox[{RowBox[{"-",RowBox[{"Cos","[",RowBox[{FractionBox["1","5"]," ",RowBox[{"(",RowBox[
+{RowBox[{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"+",RowBox[{FractionBox["1","4"]," ",RowBox[
+{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"+",RowBox[
+{"5"," ",RowBox[{"(",RowBox[{RowBox[{RowBox[{"-",FractionBox["1","25"]}]," ",RowBox[
+{"Cos","[",RowBox[{FractionBox["1","5"]," ",RowBox[{"(",RowBox[{RowBox[{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"+",RowBox[
+{FractionBox["1","100"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[
+{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"-",RowBox[
+{FractionBox["1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],")"}]}],"+",RowBox[{"6"," ",RowBox[
+{"(",RowBox[{RowBox[{FractionBox["1","5"]," ",RowBox[{"Cos","[",RowBox[{FractionBox[
+"1","5"]," ",RowBox[{"(",RowBox[{RowBox[{"5"," ","x"}],"-","y"}],")"}]}],"]"}]}],"-",RowBox[
+{FractionBox["1","20"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","10"]," ",RowBox[
+{"(",RowBox[{RowBox[{RowBox[{"-","5"}]," ","x"}],"+","y"}],")"}]}],"]"}]}],"+",RowBox[
+{FractionBox["1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],")"}]}],"-",RowBox[{FractionBox[
+"1","4"]," ",RowBox[{"Cos","[",RowBox[{FractionBox["1","2"]," ",RowBox[{"(",RowBox[
+{RowBox[{"-","x"}],"+","y"}],")"}]}],"]"}]}]}],StandardForm],"Output",CellLabel -> "Out[27]= ",
+ExpressionUUID -> "717fd749-e781-4800-b3cf-9f6ec97c76ba"]},Open],ExpressionUUID -> "af8b60d0-6bcb-4b4f-8b30-02d2c4678f9f"]},
+Open],ExpressionUUID -> "be0f41a1-64c5-486d-9f7f-e228b1c0c776"],Cell[
+CellGroupData[
+{Cell[
+"\<Simplify\>","Chapter",ExpressionUUID -> "8ea8ed4a-5105-4b43-b48d-9118ffa160e0"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FullSimplify","[","expr","]"}]],"Code",CellLabel -> "In[28]:= ",
+ExpressionUUID -> "f4a125c0-d1fa-4247-95fd-4c8d5533ad20"],Cell[
+BoxData["0",StandardForm],
+"Output",CellLabel -> "Out[28]= ",ExpressionUUID -> "e62dc4eb-a488-4a05-a4fe-259907ef6a08"]},
+Open],ExpressionUUID -> "b9985583-e52e-47f6-8ade-bf1056e0169c"]},Open],ExpressionUUID -> "d55d190c-e07f-4c41-8753-8c9cb10da3c0"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Checking"," ","boundary"," ","conditions"}],"Chapter",ExpressionUUID -> "3ec747c7-cb5d-456f-bc88-5e596820ca08"],Cell[
+TextData[
+{"First"," ","boundary"," ","condition",StyleBox[RowBox[{" "," "}]],Cell[
+BoxData[
+TemplateBox[Association["boxes" -> FormBox[RowBox[{StyleBox["u","TI"],SubscriptBox[
+"|",RowBox[{StyleBox["y","TI"],"\[LongEqual]","0"}]],"\[LongEqual]","cos",StyleBox[
+"x","TI"]}],TraditionalForm],"errors" -> {},"input" -> "u \\Big|_{y=0} = \\cos x",
+"state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[RowBox[{" "," "}]]}],"Subchapter",
+ExpressionUUID -> "443ad09c-1716-4d20-88bc-c62542748716"],Cell[
+CellGroupData[{Cell[
+BoxData[
+RowBox[{"FullSimplify","[",RowBox[{"u","[",RowBox[{"x",","," ","0"}],"]"}],"]"}]],
+"Code",CellLabel -> "In[29]:= ",ExpressionUUID -> "13756e94-5db9-4b7d-8b93-b4fd111d7665"],Cell[
+BoxData[
+RowBox[{"Cos","[","x","]"}],StandardForm],"Output",CellLabel -> "Out[29]= ",ExpressionUUID -> "89c1bd7e-6633-4d26-8925-b741b92cfbe2"]},
+Open],ExpressionUUID -> "459fcf90-710b-4d25-be17-28e19377f4e2"],Cell[
+TextData[{"Second"," ","boundary"," ","condition",StyleBox[
+RowBox[{" "," "}]],Cell[
+BoxData[TemplateBox[Association["boxes" -> FormBox[RowBox[
+{StyleBox["u","TI"],SubscriptBox["|",RowBox[{StyleBox["y","TI"],"\[LongEqual]","5",StyleBox[
+"x","TI"]}]],"\[LongEqual]","cos","2",StyleBox["x","TI"]}],TraditionalForm],"errors" -> {},
+"input" -> "u \\Big|_{y=5x} = \\cos 2x","state" -> "Boxes"],"TeXAssistantTemplate"]]],StyleBox[
+RowBox[{" "," "}]]}],"Subchapter",ExpressionUUID -> "5889976c-89f3-4ed9-ac2d-289debb5e61e"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FullSimplify","[",RowBox[{"u","[",RowBox[{"x",","," ",RowBox[
+{"5","x"}]}],"]"}],"]"}]],"Code",CellLabel -> "In[30]:= ",ExpressionUUID -> "d1995b2a-7b42-490d-82e1-07f8347afa52"],Cell[
+BoxData[
+RowBox[{"Cos","[",RowBox[{"2"," ","x"}],"]"}],StandardForm],"Output",CellLabel -> "Out[30]= ",
+ExpressionUUID -> "94c99fa8-4f4b-4ad6-8f65-fc57a1c390c7"]},Open],ExpressionUUID -> "64a8cb74-5557-4b4b-828a-0223f8679286"]},
+Open],ExpressionUUID -> "2d346f9d-a2ea-4434-8882-cf20aae242db"]},Open],ExpressionUUID -> "f8e7a7bc-0eee-413a-8950-d4fbeafaf478"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "14.2 for Wolfram Cloud 1.71 (March 24, 2025)"]
