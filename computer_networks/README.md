@@ -12,6 +12,8 @@
 - [lab8](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab8) - [Внедрение адресации VLSM. Статическая маршрутизация (_Implementation of VLSM addressing. Static routing_)](https://temablag.github.io/BSU/computer_networks/lab8/lab8.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab8/lab8_theory.pdf)
 - [lab9](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab9) - [Конфигурация RIPv2 и его проверка (_RIPv2 configuration and verification_)](https://temablag.github.io/BSU/computer_networks/lab9/lab9.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab9/lab9_theory.pdf)
 - [lab10](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab10) - [Настройка параметров OSPF (_Configuring OSPF settings_)](https://temablag.github.io/BSU/computer_networks/lab10/lab10.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab10/lab10_theory.pdf)
+- [lab11](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab11) - [Конфигурация OSPF с множественным доступом и её проверка (_OSPF configuration with multiple access and its verification_)](https://temablag.github.io/BSU/computer_networks/lab11/lab11.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab11/lab11_theory.pdf)
+- [lab12](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab12) - [Настройка и проверка NAPT (_Configuring and verifying NAPT_)](https://temablag.github.io/BSU/computer_networks/lab12/lab12.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab12/lab12_theory.pdf)
 
 Курсы на платформе Stepik:
 - [Основы компьютерных сетей](https://stepik.org/course/208904/syllabus?search=6506192455)
