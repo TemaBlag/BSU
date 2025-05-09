@@ -14,6 +14,7 @@
 - [lab10](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab10) - [Настройка параметров OSPF (_Configuring OSPF settings_)](https://temablag.github.io/BSU/computer_networks/lab10/lab10.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab10/lab10_theory.pdf)
 - [lab11](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab11) - [Конфигурация OSPF с множественным доступом и её проверка (_OSPF configuration with multiple access and its verification_)](https://temablag.github.io/BSU/computer_networks/lab11/lab11.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab11/lab11_theory.pdf)
 - [lab12](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab12) - [Настройка и проверка NAPT (_Configuring and verifying NAPT_)](https://temablag.github.io/BSU/computer_networks/lab12/lab12.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab12/lab12_theory.pdf)
+- [lab13](https://github.com/TemaBlag/BSU/tree/main/computer_networks/lab13) - [Создание VLAN и назначение портов (_VLAN creation and port assignment_)](https://temablag.github.io/BSU/computer_networks/lab13/lab13.pdf) - [`theory`](https://temablag.github.io/BSU/computer_networks/lab13/lab13_theory.pdf)
 
 Курсы на платформе Stepik:
 - [Основы компьютерных сетей](https://stepik.org/course/208904/syllabus?search=6506192455)
