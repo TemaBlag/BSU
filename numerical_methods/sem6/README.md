@@ -2,7 +2,8 @@
 Численные методы. Семестр 6
 
 - [theory](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/theory) - Теория
-- [test](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/test) - [Контрольная работа](https://temablag.github.io/BSU/numerical_methods/sem6/test/test.pdf)
+- [test1](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/test) - [Контрольная работа 1](https://temablag.github.io/BSU/numerical_methods/sem6/test1/test1.pdf)
+- [test2](https://github.com/TemaBlag/BSU/tree/main/numerical_methods/sem6/test) - [Контрольная работа 2](https://temablag.github.io/BSU/numerical_methods/sem6/test2/test2.pdf)
 ___
 Лабораторные работы:
 
