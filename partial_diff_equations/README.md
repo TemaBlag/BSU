@@ -1,8 +1,8 @@
 # Partial differential equations and their applications 
 Дифференциальные уравнения в частных производных и их приложения
 
-- [lab12](https://github.com/TemaBlag/BSU/blob/main/partial_diff_equations/lab1) - [Классификация дифференциальных уравнений с частными производными (_Classification of partial differential equations_)](https://temablag.github.io/BSU/partial_diff_equations/lab1/lab1.pdf)
-- [lab3](https://github.com/TemaBlag/BSU/blob/main/partial_diff_equations/lab2) - [Решение смешанных задач (_Solving mixed problems_)](https://temablag.github.io/BSU/partial_diff_equations/lab2/lab2.pdf)
+- [lab12](https://github.com/TemaBlag/BSU/blob/main/partial_diff_equations/lab12) - [Классификация дифференциальных уравнений с частными производными (_Classification of partial differential equations_)](https://temablag.github.io/BSU/partial_diff_equations/lab12/lab1.pdf)
+- [lab3](https://github.com/TemaBlag/BSU/blob/main/partial_diff_equations/lab3) - [Решение смешанных задач (_Solving mixed problems_)](https://temablag.github.io/BSU/partial_diff_equations/lab3/lab3.pdf)
 
 ---
 Конспекты преподавателей БГУ:
