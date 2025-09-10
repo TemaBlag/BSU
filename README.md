@@ -92,7 +92,7 @@
 <details>
 <summary>6️⃣ semester 6</summary>
 
-- Course paper (_Курсовая работа_) 
+- [📃 Course paper (_Курсовая работа_)](https://github.com/TemaBlag/BSU/tree/main/science_works/coursework)
 - [📡 Computer networks (_Компьютерные сети_)](https://github.com/TemaBlag/BSU/tree/main/computer_networks)
 - [:abacus: Numerical methods (_Численные методы_)](https://github.com/TemaBlag/BSU/tree/main/numerical_methods)		 
 - [Partial differential equations and their applications (_Дифференциальные уравнения в частных производных и их приложения_)](https://github.com/TemaBlag/BSU/tree/main/partial_diff_equations)	 
@@ -105,6 +105,19 @@
 
 <details>
 <summary>7️⃣ semester 7</summary>
+
+- 📃 Course paper (_Курсовая работа_)
+- Business Communication (_Деловое общение и коммуникации_)
+- Methods of Intelligent Analysis of Biomedical Images (_Методы интеллектуального анализа биомедицинских изображений_)
+- Fundamentals of Data Mining (_Основы интеллектуального анализа данных_)
+- Fundamentals of Intellectual Property Management (_Основы управления интеллектуальной собственностью_)
+- Parallel and Distributed Computing (_Параллельные и распределенные вычисления_)
+- Integer Programming (_Целочисленное программирование_)
+- Artificial Intelligence (_Искусственный интеллект_)
+- Operations Research (_Исследование операций_)
+- Mathematical Modeling (_Математическое моделирование_)
+- Fundamentals of Computer Modeling of Biomolecules (_Основы компьютерного моделирования биомолекул_)
+
 </details>
 
 ---
