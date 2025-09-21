@@ -113,7 +113,7 @@
 - 🧾 Fundamentals of Intellectual Property Management (_Основы управления интеллектуальной собственностью_)
 - ⚙️ Parallel and Distributed Computing (_Параллельные и распределенные вычисления_)
 - 🔢 Integer Programming (_Целочисленное программирование_)
-- 🤖 Artificial Intelligence (_Искусственный интеллект_)
+- [🤖 Artificial Intelligence (_Искусственный интеллект_)](https://github.com/TemaBlag/BSU/tree/main/artificial_intelligence)
 - 📈 Operations Research (_Исследование операций_)
 - 📐 Mathematical Modeling (_Математическое моделирование_)
 - 🧬 Fundamentals of Computer Modeling of Biomolecules (_Основы компьютерного моделирования биомолекул_)
