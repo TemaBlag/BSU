@@ -109,7 +109,7 @@
 - [📃 Course paper (_Курсовая работа_)](https://github.com/TemaBlag/BSU/tree/main/science_works/pre_grad_course_work)
 - [🧠 Methods of Intelligent Analysis of Biomedical Images (_Методы интеллектуального анализа биомедицинских изображений_)](https://github.com/TemaBlag/BSU/tree/main/intel_analys_bio_img)
 - [🔎 Fundamentals of Data Mining (_Основы интеллектуального анализа данных_)](https://github.com/TemaBlag/oiad-3-2025/tree/master/Blagodarniy)
-- [🧾 Fundamentals of Intellectual Property Management (_Основы управления интеллектуальной собственностью_)]()
+- [🧾 Fundamentals of Intellectual Property Management (_Основы управления интеллектуальной собственностью_)](https://github.com/TemaBlag/BSU/tree/main/intel_property_manage)
 - [🤖 Artificial Intelligence (_Искусственный интеллект_)](https://github.com/TemaBlag/BSU/tree/main/artificial_intelligence)
 - [📈 Operations Research (_Исследование операций_)]()
 - [📐 Mathematical Modeling (_Математическое моделирование_)]()
