@@ -106,7 +106,7 @@
 <details>
 <summary>7️⃣ semester 7</summary>
 
-- [📃 Course paper (_Курсовая работа_)]()
+- [📃 Course paper (_Курсовая работа_)](https://github.com/TemaBlag/BSU/tree/main/science_works/pre_grad_course_work)
 - [🧠 Methods of Intelligent Analysis of Biomedical Images (_Методы интеллектуального анализа биомедицинских изображений_)]()
 - [🔎 Fundamentals of Data Mining (_Основы интеллектуального анализа данных_)](https://github.com/TemaBlag/oiad-3-2025)
 - [🧾 Fundamentals of Intellectual Property Management (_Основы управления интеллектуальной собственностью_)]()
