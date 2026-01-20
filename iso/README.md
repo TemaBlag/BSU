@@ -1,5 +1,5 @@
-# 🧾 Fundamentals of Intellectual Property Management
-Основы управления интеллектуальной собственностью
+# 📈 Operations Research 
+Исследование операций
 
 - [materials](https://github.com/TemaBlag/BSU/tree/main/iso/materials)
 - [lab4](https://temablag.github.io/BSU/iso/lab4.pdf)
