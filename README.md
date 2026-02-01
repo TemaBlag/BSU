@@ -114,8 +114,8 @@
 - [📈 Operations Research (_Исследование операций_)](https://github.com/TemaBlag/BSU/tree/main/iso)
 - [📐 Mathematical Modeling (_Математическое моделирование_)](https://github.com/TemaBlag/BSU/tree/main/math_modeling)
 - [🧬 Fundamentals of Computer Modeling of Biomolecules (_Основы компьютерного моделирования биомолекул_)](https://github.com/TemaBlag/BSU/tree/main/fund_comp_modeling_bio)
-- [🔐 Information Systems Security (_Безопасность информационных систем_)]()
-- [🦺 Human Life Safety (_Безопасность жизнедеятельности человека_)]()
+- [🔐 Information Systems Security (_Безопасность информационных систем_)](https://github.com/TemaBlag/BSU/tree/main/inform_system_security)
+- [🦺 Human Life Safety (_Безопасность жизнедеятельности человека_)](https://github.com/TemaBlag/BSU/tree/main/human_life_safety)
 </details>
 
 ---
