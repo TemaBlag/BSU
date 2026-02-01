@@ -11,4 +11,4 @@
 - [lab6](https://github.com/TemaBlag/BSU/tree/main/fund_comp_modeling_bio/lab6) - [Условие](https://sites.google.com/view/labsbsu/%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-6?authuser=0)
 
 
-[Лекции](https://drive.google.com/drive/folders/1Xf88ugE6JR76k2D2GAAxdYFK-HNOGRK3) по курсу. [Рефераты](https://github.com/TemaBlag/BSU/tree/main/math_modeling/materials) по лекциям.
+[Лекции](https://drive.google.com/drive/folders/1Xf88ugE6JR76k2D2GAAxdYFK-HNOGRK3) по курсу. [Рефераты](https://github.com/TemaBlag/BSU/tree/main/fund_comp_modeling_bio/reports) по лекциям.
