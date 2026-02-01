@@ -113,7 +113,7 @@
 - [🤖 Artificial Intelligence (_Искусственный интеллект_)](https://github.com/TemaBlag/BSU/tree/main/artificial_intelligence)
 - [📈 Operations Research (_Исследование операций_)](https://github.com/TemaBlag/BSU/tree/main/iso)
 - [📐 Mathematical Modeling (_Математическое моделирование_)](https://github.com/TemaBlag/BSU/tree/main/math_modeling)
-- [🧬 Fundamentals of Computer Modeling of Biomolecules (_Основы компьютерного моделирования биомолекул_)]()
+- [🧬 Fundamentals of Computer Modeling of Biomolecules (_Основы компьютерного моделирования биомолекул_)](https://github.com/TemaBlag/BSU/tree/main/fund_comp_modeling_bio)
 - [🔐 Information Systems Security (_Безопасность информационных систем_)]()
 - [🦺 Human Life Safety (_Безопасность жизнедеятельности человека_)]()
 </details>
