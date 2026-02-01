@@ -1,0 +1,195 @@
+.model small
+.stack 100h
+
+.data
+filename db 'MYFILE.BIN',0
+filehandle dw ?
+
+is_shift_pressed db 0
+is_alt_pressed db 0  
+is_russian_layout db 0
+
+SPACE_KEY equ 39h
+SHIFT_KEY equ 2Ah
+ALT_KEY equ 38h
+SHIFT_RELEASE equ 0AAh
+ALT_RELEASE equ 0B8h
+
+key_code db ?
+current_char db ?
+
+
+english_layout db 0, 0, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'
+               db 0, 0, 0, 0, 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o'
+               db 'p', 0, 0, 0, 0, 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k'
+               db 'l', 0, 0, 0, 0, 0, 'z', 'x', 'c', 'v', 'b', 'n', 'm'
+
+english_shift_layout db 0, 0, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'
+                     db 0, 0, 0, 0, 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O'
+                     db 'P', 0, 0, 0, 0, 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K'
+                     db 'L', 0, 0, 0, 0, 0, 'Z', 'X', 'C', 'V', 'B', 'N', 'M'
+
+russian_layout db 0, 0, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'
+               db 0, 0, 0, 0, '©', 'Ê', '„', '™', '•', '≠', '£', 'Ë', 'È'
+               db 'ß', 'Â', 'Í', 0, 0, '‰', 'Î', '¢', '†', 'Ø', '‡', 'Æ'
+               db '´', '§', '¶', 'Ì','Ò', 0, 0, 'Ô', 'Á', '·', '¨', '®'
+               db '‚', 'Ï', '°', 'Ó'
+
+russian_shift_layout  db 0, 0, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'
+               db 0, 0, 0, 0, 'â', 'ñ', 'ì', 'ä', 'Ö', 'ç', 'É', 'ò', 'ô'
+               db 'á', 'ï', 'ö', 0, 0, 'î', 'õ', 'Ç', 'Ä', 'è', 'ê', 'é'
+               db 'ã', 'Ñ', 'Ü', 'ù','', 0, 0, 'ü', 'ó', 'ë', 'å', 'à'
+               db 'í', 'ú', 'Å', 'û'
+
+.code
+
+main proc
+    mov ax, @data
+    mov ds, ax
+    
+    ; Open file
+    mov ah, 3Dh
+    mov al, 0
+    lea dx, filename
+    int 21h
+    jnc open_ok
+    jmp exit_program
+    
+open_ok:
+    mov filehandle, ax
+    
+reading_loop:
+    ; Read key code from file
+    mov ah, 3Fh
+    mov bx, filehandle
+    mov cx, 1
+    lea dx, key_code
+    int 21h
+    jnc read_ok
+    jmp close_file
+    
+read_ok:
+    cmp ax, 0
+    jne process_key
+    jmp close_file
+    
+process_key:
+    mov al, key_code
+    
+    cmp al, SHIFT_KEY
+    jne check_shift_release
+    mov bl, is_alt_pressed
+    test bl, bl
+    jz set_shift_flag
+    mov bl, is_russian_layout
+    xor bl, 1
+    mov is_russian_layout, bl
+set_shift_flag:
+    mov is_shift_pressed, 1
+    jmp reading_loop
+    
+check_shift_release:
+    cmp al, SHIFT_RELEASE
+    jne check_alt
+    mov is_shift_pressed, 0
+    jmp reading_loop
+    
+check_alt:
+    cmp al, ALT_KEY
+    jne check_alt_release
+    mov bl, is_shift_pressed
+    test bl, bl
+    jz set_alt_flag
+    mov bl, is_russian_layout
+    xor bl, 1
+    mov is_russian_layout, bl
+set_alt_flag:
+    mov is_alt_pressed, 1
+    jmp reading_loop
+    
+check_alt_release:
+    cmp al, ALT_RELEASE
+    jne check_space
+    mov is_alt_pressed, 0
+    jmp reading_loop
+    
+check_space:
+    cmp al, SPACE_KEY
+    jne convert_char
+    mov current_char, ' '
+    jmp print_char
+    
+convert_char:
+    test al, 80h
+    jnz skip_convert
+    call get_char_from_code
+    cmp current_char, 0
+    je skip_convert
+    jmp print_char
+    
+skip_convert:
+    jmp reading_loop  ; Long jump back
+    
+print_char:
+    mov dl, current_char
+    mov ah, 02h
+    int 21h
+    jmp reading_loop
+    
+close_file:
+    mov ah, 3Eh
+    mov bx, filehandle
+    int 21h
+    
+exit_program:
+    mov ax, 4C00h
+    int 21h
+main endp
+
+get_char_from_code proc
+    push bx
+    push si
+    
+    
+    mov bl, is_shift_pressed
+    mov bh, is_russian_layout
+    
+    test bh, bh
+    jz english_layout_selected
+    
+    test bl, bl
+    jz russian_no_shift
+    lea si, russian_shift_layout
+    jmp get_char
+    
+russian_no_shift:
+    lea si, russian_layout
+    jmp get_char
+    
+english_layout_selected:
+    test bl, bl
+    jz english_no_shift
+    lea si, english_shift_layout
+    jmp get_char
+    
+english_no_shift:
+    lea si, english_layout
+
+get_char:
+    mov bl, al
+    mov bh, 0
+    mov al, [si + bx]
+    mov current_char, al
+    jmp char_done
+    
+invalid_char:
+    mov current_char, 0
+    
+char_done:
+    pop si
+    pop bx
+    ret
+
+get_char_from_code endp
+
+end main
