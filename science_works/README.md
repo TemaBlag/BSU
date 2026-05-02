@@ -14,5 +14,9 @@
   
     Исследование архитектур нейронных сетей для предсказания свойств лекарственно-подобных молекул
     (Investigation of neural network architectures for predicting the properties of drug-like molecules) - [`text`](https://temablag.github.io/BSU/science_works/pre_grad_course_work/course_work.pdf), [`presentation`](https://temablag.github.io/BSU/science_works/pre_grad_course_work/presentation_course_work.pdf)
+- [Преддипломная практика (_Pre-graduate practise_)](https://github.com/TemaBlag/BSU/tree/main/science_works/practiсe):
+  
+    Реализация архитектуры нейронной сети Mamba для предсказания свойств лекарственно-подобных молекул
+    (Implementation of the Mamba neural network architecture for predicting the properties of drug-like molecules) - [`text`](https://temablag.github.io/BSU/science_works/practiсe/practiсe.pdf), [`presentation`](https://temablag.github.io/BSU/science_works/practiсe/pres.pdf)
 
 
