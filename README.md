@@ -117,10 +117,12 @@
 - [🦺 Human Life Safety (_Безопасность жизнедеятельности человека_)](https://github.com/TemaBlag/BSU/tree/main/human_life_safety)
 </details>
 
+<details>
 <summary>8️⃣ semester 8</summary>
+ 
 - [👷‍♂️ Production practice: (_Производственная практика_)](https://github.com/TemaBlag/BSU/tree/main/science_works/practice)
 - [📚 Graduate work (_Дипломная работа_)](https://github.com/TemaBlag/BSU/tree/main/science_works/graduate_work)
-<details>
+</details>
 
 ---
 
