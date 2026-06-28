@@ -3,9 +3,10 @@
 Научные работы
 
 - [Курсовой проект (_Сourse project_)](https://github.com/TemaBlag/BSU/tree/main/science_works/course_project):
-  
+
     Изучение подходов обучения с подкреплением для генерации потенциальных лекарств
     (Exploring reinforcement learning approaches to generate potential drugs) - [`text`](https://temablag.github.io/BSU/science_works/course_project/course_project.pdf), [`presentation`](https://temablag.github.io/BSU/science_works/course_project/presentation_course_project.pdf)
+  
 - [Курсовая работа (_Сourse work_)](https://github.com/TemaBlag/BSU/tree/main/science_works/coursework):
   
     Разработка глубокой нейронной сети для оценки энергии связывания химических соединений с молекулярной мишенью
@@ -18,4 +19,9 @@
   
     Реализация архитектуры нейронной сети Mamba для предсказания свойств лекарственно-подобных молекул
     (Implementation of the Mamba neural network architecture for predicting the properties of drug-like molecules) - [`text`](https://temablag.github.io/BSU/science_works/practice/practice.pdf), [`presentation`](https://temablag.github.io/BSU/science_works/practice/pres.pdf)
+
+- [Дипломная работа (_Graduate work_)](https://github.com/TemaBlag/BSU/tree/main/science_works/graduate_work):
+  
+    Разработка нейронной сети для предсказания свойств лекарственно-подобных молекул
+(Development of a neural network for predicting the properties of drug-like molecules) - [`text`](https://temablag.github.io/BSU/science_works/graduate_work/Благодарный_АА_диплом_Разработка_нейронной_сети_для_предсказания_свойств_лекарственно_подобных_молекул.pdf), [`presentation`](https://temablag.github.io/BSU/science_works/graduate_work/БлагодарныйАА_Разработка_нейронной_сети.pdf)
 
