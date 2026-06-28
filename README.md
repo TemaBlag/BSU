@@ -100,7 +100,6 @@
 - [🎓 Fundamentals of pedagogy and psychology (_Основы педагогики и психологии_)](https://github.com/TemaBlag/BSU/tree/main/pedagogy)	 
 - [🖼️ Fundamentals of digital image processing (_Основы цифровой обработки изображений_)](https://github.com/TemaBlag/BSU/tree/main/image_processing)
 - [📊 Probability theory and mathematical statistics (_Теория вероятностей и математическая статистика_)](https://github.com/TemaBlag/BSU/tree/main/prob_and_math_stat)
-
 </details>
 
 <details>
@@ -117,6 +116,12 @@
 - [🔐 Information Systems Security (_Безопасность информационных систем_)](https://github.com/TemaBlag/BSU/tree/main/inform_system_security)
 - [🦺 Human Life Safety (_Безопасность жизнедеятельности человека_)](https://github.com/TemaBlag/BSU/tree/main/human_life_safety)
 </details>
+
+<details>
+<summary>8️⃣ semester 8</summary>
+- [👷‍♂️ Production practice: (_Производственная практика_)](https://github.com/TemaBlag/BSU/tree/main/science_works/practice)
+- [📚 Graduate work (_Дипломная работа_)](https://github.com/TemaBlag/BSU/tree/main/science_works/graduate_work)
+<details>
 
 ---
 
